@@ -1,13 +1,38 @@
-// $Id$
+/*  
+ * This file is part of the tiberCAD module poisson.
+ *
+ * tiberCAD modules are licensed under the GNU General Public License v3.
+ *
+ * tiberCAD is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published
+ * by the Free Software Foundation, either version 3 of the License,
+ * or (at your option) any later version.
+ *
+ * tiberCAD is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with tiberCAD. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/*!
+ * \file Poisson.h
+ * \brief tiberCAD poisson module header.
+ *
+ * \note This file is part of module poisson.
+ */
+
 
 #ifndef _POISSON_H_
 #define _POISSON_H_
 
-#include "SimulationInterface.h"
-#include "TiberLinearSystem.h"
+#include "tibercad/module/SimulationInterface.h"
+#include "tibercad/solver/TiberLinearSystem.h"
 
-#include "enum_order.h"
-#include "enum_quadrature_type.h"
+#include "libmesh/enum_order.h"
+#include "libmesh/enum_quadrature_type.h"
 
 /*!
  * 
@@ -36,38 +61,38 @@ class TBDLLOCAL Poisson : public SimulationInterface
   protected:
 
     //! The initialization
-    virtual void do_init(void);
+    virtual void do_init(void) override final;
 
 
     //! Parse the options from the input file
-    virtual void parse_options(void);
+    void parse_options(void);
 
 
     //! Setup the available variables
-    virtual void do_setup_solution_variables(void);
+    virtual void do_setup_solution_variables(void) override final;
 
 
     //! Solve the Poisson equation
-    virtual void do_solve(void);
+    virtual void do_solve(void) override final;
 
 
     //! Print some useful information
-    virtual void do_print_info(void);
+    virtual void do_print_info(void) override final;
 
 
     //! We need to create a physical model
     virtual PhysicalModel* create_bulk_model(const ModelOptions& options,
-        const Material* mat) const;
+        const Material* mat) const override final;
 
     //! We need to create boundary condition model
     virtual PhysicalModel* create_boundary_model(const ModelOptions& options,
-        const MaterialBoundary* boundary) const;
+        const MaterialBoundary* boundary) const override final;
 
 
     //! We have to provide somehow our solution variables
     virtual void get_solution_secure(const Elem* elem,
         std::map<ID, std::vector<double> >& values,
-        const std::vector<Point>& p);
+        const std::vector<Point>& p) override final;
 
 
 
@@ -87,9 +112,9 @@ class TBDLLOCAL Poisson : public SimulationInterface
     enum Solutions
     {
       Potential,        /*!< the potential */
-      ElField,            /*!< the field (negative gradient of potential) */
+      ElField,          /*!< the field (negative gradient of potential) */
       Displacement,     /*!< the electric displacement */
-      Polarization,
+      Polarization,     /*!< the polarization field */
       ChargeDensity     /*!< the source (charge density) */
     };
 
@@ -102,7 +127,7 @@ class TBDLLOCAL Poisson : public SimulationInterface
     //! The assembly function
     void assemble(void);
 
-    // A local helper class to be used to access assembly routine
+    //! A local helper class to be used to access assembly routine
     class MyAssembly : public TiberLinearSystem::Assembly
     {
       public:

@@ -18,53 +18,33 @@
  */
 
 /*!
- * \file ChargeDensityModel.h
- * \brief tiberCAD poisson module header.
+ * \file PoissonBoundaryModel.cpp
+ * \brief tiberCAD poisson module implementation.
  *
  * \note This file is part of module poisson.
  */
 
 
-#ifndef _CHARGEDENSITYMODEL_H_
-#define _CHARGEDENSITYMODEL_H_
+#include "PoissonBoundaryModel.h"
+#include "tibercad/physics/MaterialBoundary.h"
 
-#include "tibercad/physics/PhysicalModel.h"
+using namespace std;
 
-
-class Elem;
-class Point;
-
-// Base class for charge density models
-class ChargeDensityModel : public PhysicalModel
+PoissonBoundaryModel*
+PoissonBoundaryModel::create(const MaterialBoundary* boundary, const ModelOptions& options)
 {
+  std::string type = options.get_option("type", "dirichlet");
+  PoissonBoundaryModel* mod = 
+      PhysicalModel::create<PoissonBoundaryModel>("contact_" + type, boundary, options);
 
-  public:
+  if (mod == NULL)
+  {
+    ostringstream os;
+    os << "Poisson boundary model \'" << type << "\' cannot be found.";
+    throw InitFailedException(os.str());
+  }
 
-    virtual ~ChargeDensityModel(void) {};
-
-    double get_charge_density(const Elem* elem, const Point&);
-
-
-  protected:
-
-    ChargeDensityModel(const ModelOptions& options);
-
-    virtual double calculate_charge_density(const Elem* elem, const Point& point) = 0;
-
-};
-
-
-ChargeDensityModel::ChargeDensityModel(const ModelOptions& options) :
-  PhysicalModel(options)
-{
+  return mod;
 }
 
 
-double
-ChargeDensityModel::get_charge_density(const Elem* elem, const Point& point)
-{
-  return calculate_charge_density(elem, point);
-}
-
-
-#endif // _CHARGEDENSITYMODEL_H_
