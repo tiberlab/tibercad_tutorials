@@ -270,9 +270,9 @@ Poisson::get_solution_secure(const Elem* elem,
   if ( values.count(Polarization))
   {
     const RealVectorValue& pol = mod.get_polarization();
-    values[Polarization][0] = pol(0) / np;
-    values[Polarization][1] = pol(1) / np;
-    values[Polarization][2] = pol(2) / np;
+    values[Polarization][0] = pol(0);
+    values[Polarization][1] = pol(1);
+    values[Polarization][2] = pol(2);
   }
 
   if (values.count(ElField))
