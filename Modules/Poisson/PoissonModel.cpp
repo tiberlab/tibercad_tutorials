@@ -35,7 +35,7 @@ using namespace std;
 
 
 TiberModelObject*
-PoissonModel::_create(const ModelOptions& options, const void*)
+PoissonModel::_create(const ModelOptions& options)
 {
   return new PoissonModel(options);
 }

@@ -25,8 +25,8 @@
  */
 
 
-#ifndef _POISSONDIRICHLET_H_
-#define _POISSONDIRICHLET_H_
+#ifndef TC_POISSONDIRICHLET_H
+#define TC_POISSONDIRICHLET_H
 
 #include "PoissonBoundaryModel.h"
 
@@ -48,38 +48,22 @@ class PoissonDirichlet : public PoissonBoundaryModel
     //! Destructor
     ~PoissonDirichlet(void) {};
 
-    //! Creator function
-    static PoissonDirichlet* create(const ModelOptions& options);
-
 
     //! Calculate for a point on the given side
     virtual void calculate(const Elem* elem, unsigned int side,
-        const Point& point);
+        const Point& point) override;
 
 
   protected:
 
+    //! Constructor
+    PoissonDirichlet(const ModelOptions& options);
+
     //! Initialize
-    virtual void do_init(void);
-
-    /* In some cases it might be useful to reimplement this: */
-    // virtual void do_init_interface(const PhysicalModel* comp_A,
-    //         const PhysicalModel* comp_B);
-
-
-    /* This is not used here: */
-    // virtual void read_database(void);
-
-
-    /* We do not use this here: */
-    // virtual void read_interface_database(void);
-
+    virtual void do_init(void) override;
 
 
   private:
-
-    //! Constructor
-    PoissonDirichlet(const ModelOptions& options);
 
     //! The boundary potential
     double _potential;
@@ -97,14 +81,4 @@ PoissonDirichlet::PoissonDirichlet(const ModelOptions& options) :
 }
 
 
-
-inline
-PoissonDirichlet*
-PoissonDirichlet::create(const ModelOptions& options)
-{
-  return new PoissonDirichlet(options);
-}
-
-
-
-#endif // _POISSONDIRICHLET_H_
+#endif // TC_POISSONDIRICHLET_H

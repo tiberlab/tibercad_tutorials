@@ -25,8 +25,8 @@
  */
 
 
-#ifndef _POISSONNEUMANN_H_
-#define _POISSONNEUMANN_H_
+#ifndef TC_POISSONNEUMANN_H
+#define TC_POISSONNEUMANN_H
 
 #include "PoissonBoundaryModel.h"
 
@@ -45,40 +45,26 @@ class PoissonNeumann : public PoissonBoundaryModel
   public:
 
     //! Destructor
-    ~PoissonNeumann(void) {};
-
-    //! Creator function
-    static PoissonNeumann* create(const ModelOptions& options);
+    virtual ~PoissonNeumann(void) {};
 
 
     //! Calculate for a point on the given side
     virtual void calculate(const Elem* elem, unsigned int side,
-        const Point& point);
+        const Point& point) override;
 
 
   protected:
 
+    //! Constructor
+    PoissonNeumann(const ModelOptions& options);
+
     //! Initialize
-    virtual void do_init(void);
+    virtual void do_init(void) override;
 
-    /* In some cases it might be useful to reimplement this: */
-    // virtual void do_init_interface(const PhysicalModel* comp_A,
-    //         const PhysicalModel* comp_B);
-
-
-    /* This is not used here: */
-    // virtual void read_database(void);
-
-
-    /* We do not use this here: */
-    // virtual void read_interface_database(void);
 
 
 
   private:
-
-    //! Constructor
-    PoissonNeumann(const ModelOptions& options);
 
     //! The normal field on the boundary
     double _field;
@@ -97,13 +83,4 @@ PoissonNeumann::PoissonNeumann(const ModelOptions& options) :
 
 
 
-inline
-PoissonNeumann*
-PoissonNeumann::create(const ModelOptions& options)
-{
-  return new PoissonNeumann(options);
-}
-
-
-
-#endif // _POISSONNEUMANN_H_
+#endif // TC_POISSONNEUMANN_H

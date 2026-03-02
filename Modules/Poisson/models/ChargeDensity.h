@@ -25,8 +25,8 @@
  */
 
 
-#ifndef _CONSTANTCHARGEDENSITY_H_
-#define _CONSTANTCHARGEDENSITY_H_
+#ifndef TC_CONSTANTCHARGEDENSITY_H
+#define TC_CONSTANTCHARGEDENSITY_H
 
 #include "ChargeDensityModel.h"
 #include "tibercad/module/SolutionProvider.h"
@@ -42,16 +42,14 @@ class ChargeDensity : public ChargeDensityModel
 
     virtual ~ChargeDensity(void) {};
 
-    static ChargeDensity* create(const ModelOptions& options);
-
 
   protected:
 
     ChargeDensity(const ModelOptions& options);
 
-    virtual void do_init(void);
+    virtual void do_init(void) override;
 
-    virtual double calculate_charge_density(const Elem* elem, const Point& point);
+    virtual double calculate_charge_density(const Elem* elem, const Point& point) override;
 
   private:
 
@@ -69,17 +67,5 @@ ChargeDensity::ChargeDensity(const ModelOptions& options) :
 }
 
 
-inline
-ChargeDensity*
-ChargeDensity::create(const ModelOptions& options)
-{
-  ChargeDensity* cd = new ChargeDensity(options);
-  std::cout << "Charge Density Created ID: "<< cd->get_id()<< std::endl;
 
-  return cd;
-
-}
-
-
-
-#endif // _CHARGEDENSITYMODEL_H_
+#endif // TC_CHARGEDENSITYMODEL_H

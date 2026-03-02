@@ -25,8 +25,8 @@
  */
 
 
-#ifndef _POISSONBOUNDARYMODEL_H_
-#define _POISSONBOUNDARYMODEL_H_
+#ifndef TC_POISSONBOUNDARYMODEL_H
+#define TC_POISSONBOUNDARYMODEL_H
 
 #include "tibercad/physics/PhysicalModel.h"
 #include "tibercad/module/SolutionProvider.h"
@@ -108,4 +108,4 @@ PoissonBoundaryModel::set_coefficients(double a, double b, double c)
 }
 
 
-#endif // _POISSONBOUNDARYMODEL_H_
+#endif // TC_POISSONBOUNDARYMODEL_H

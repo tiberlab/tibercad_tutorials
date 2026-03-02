@@ -25,8 +25,8 @@
  */
 
 
-#ifndef _POISSONMODEL_H_
-#define _POISSONMODEL_H_
+#ifndef TC_POISSONMODEL_H
+#define TC_POISSONMODEL_H
 
 #include "tibercad/physics/PhysicalModel.h"
 
@@ -94,9 +94,9 @@ class PoissonModel : public PhysicalModel
     //! Constructor
     PoissonModel(const ModelOptions& options);
 
-    virtual void do_init(void);
+    virtual void do_init(void) override;
 
-    virtual void prepare_submodels(void);
+    virtual void prepare_submodels(void) override;
 
     //! do the actual calculation
     virtual void do_calculate(void);
@@ -134,7 +134,7 @@ class PoissonModel : public PhysicalModel
     ChargeDensityModel* _charge_density_model;
 
     //! The constructor method
-    static TiberModelObject* _create(const ModelOptions& options, const void*);
+    static TiberModelObject* _create(const ModelOptions& options);
 
     //! The destructor method
     static void _destroy(TiberModelObject* p);
@@ -223,4 +223,4 @@ PoissonModel::calculate(void)
   do_calculate();
 }
 
-#endif // _POISSONMODEL_H_
+#endif // TC_POISSONMODEL_H

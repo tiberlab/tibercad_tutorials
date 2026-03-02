@@ -61,21 +61,6 @@ Poisson::Poisson(const ModelOptions& options) :
 }
 
 
-Poisson::~Poisson(void)
-{
-  // there's nothing to be done
-}
-
-
-Poisson*
-Poisson::create(const ModelOptions& options)
-{
-  // we could use the options to create different implementations
-  // or something like that.
-  return new Poisson(options);
-}
-
-
 
 void
 Poisson::do_init(void)

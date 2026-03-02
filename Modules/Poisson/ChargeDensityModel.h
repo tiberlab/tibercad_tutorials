@@ -25,8 +25,8 @@
  */
 
 
-#ifndef _CHARGEDENSITYMODEL_H_
-#define _CHARGEDENSITYMODEL_H_
+#ifndef TC_CHARGEDENSITYMODEL_H
+#define TC_CHARGEDENSITYMODEL_H
 
 #include "tibercad/physics/PhysicalModel.h"
 
@@ -67,4 +67,4 @@ ChargeDensityModel::get_charge_density(const Elem* elem, const Point& point)
 }
 
 
-#endif // _CHARGEDENSITYMODEL_H_
+#endif // TC_CHARGEDENSITYMODEL_H

@@ -25,8 +25,8 @@
  */
 
 
-#ifndef _POISSON_H_
-#define _POISSON_H_
+#ifndef TC_POISSON_H
+#define TC_POISSON_H
 
 #include "tibercad/module/SimulationInterface.h"
 #include "tibercad/solver/TiberLinearSystem.h"
@@ -41,24 +41,20 @@
  *
  * Illustrates the basic usage of the SimulationInterface API.
  */
-class TBDLLOCAL Poisson : public SimulationInterface
+class TC_DLLOCAL Poisson : public SimulationInterface
 {
 
   public:
 
     //! Destructor
-    /*!
-     * We do not declare it virtual here, as we will not allow
-     * to derive from this class anyway.
-     */
-    ~Poisson(void);
-
-    //! We need a public static creator function
-    static Poisson* create(const ModelOptions& options);
+    virtual ~Poisson(void) = default;
 
 
 
   protected:
+
+    //! The constructor
+    explicit Poisson(const ModelOptions& options);
 
     //! The initialization
     virtual void do_init(void) override final;
@@ -118,12 +114,6 @@ class TBDLLOCAL Poisson : public SimulationInterface
       ChargeDensity     /*!< the source (charge density) */
     };
 
-    //! The constructor
-    /*!
-     * Being private disables further inheritance.
-     */
-    Poisson(const ModelOptions& options);
-
     //! The assembly function
     void assemble(void);
 
@@ -164,4 +154,4 @@ class TBDLLOCAL Poisson : public SimulationInterface
 
 
 
-#endif // _POISSON_H_
+#endif // TC_POISSON_H
