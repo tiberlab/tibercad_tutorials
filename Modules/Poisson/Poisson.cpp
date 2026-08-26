@@ -219,7 +219,8 @@ Poisson::get_solution_secure(const Elem* elem,
       grad -= dphi[i][n] * solution(dof_indices[i]);
     }
 
-    field += grad;
+    // we provide E in V/cm
+    field += 0.01 * grad;
 
     if (values.count(Potential))
       values[Potential][n] = u;
@@ -235,8 +236,9 @@ Poisson::get_solution_secure(const Elem* elem,
 
       double rho = mod.get_charge_density();
 
+      // we provide D in C/cm^2
       if (do_displacement)
-        displacement -= eps * grad;
+        displacement += 10e-4 * Constants::e0 * (eps * grad);
 
       if (values.count(ChargeDensity))
         values[ChargeDensity][n] = rho;

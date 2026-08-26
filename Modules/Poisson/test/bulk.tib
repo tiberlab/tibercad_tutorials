@@ -1,8 +1,9 @@
+@define DIM 2D
 
 # Description of  the  device physical regions
 Device
 {
-   meshfile = bulk.msh
+   meshfile = "bulk"DIM".msh"
 
    Region bulk 
    {
@@ -29,7 +30,7 @@ Module poisson
   
     charge_density constant
     {
-      charge_density = 0e19
+      charge_density = 0e17
     }
 
   }
@@ -60,8 +61,7 @@ Simulation
   
   solve = poisson
   
-  resultpath = output
-  output_format = dat
+  resultpath = "output"DIM
 }
 
 

@@ -1,7 +1,7 @@
 L = 2;
 H = 1;
-d = 0.1;
-dc = 0.05;
+d = 0.05;
+dc = 0.005;
 
 Point(1) = {0, 0, 0, d};
 Point(2) = {L, 0, 0, d};
@@ -20,7 +20,13 @@ Line(6) = {6, 1};
 Line Loop(1) = {1, 2, 3, 4, 5, 6};
 Plane Surface(1) = {1};
 
-Physical Surface("bulk") = {1};
-//Physical Line("anode") = {5};
-Physical Line("anode") = {3,4};
-Physical Line("cathode") = {6,1};
+t[] = Extrude {0, 0, 0.5} {
+  Surface{1}; 
+};
+s[] = Extrude {0, 0, 0.5} {
+  Surface{t[0]}; 
+};
+
+Physical Volume("bulk") = {1,2};
+Physical Surface("anode") = {t[6]};
+Physical Surface("cathode") = {t[2], s[2]};
