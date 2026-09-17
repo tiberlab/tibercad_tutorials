@@ -1,0 +1,183 @@
+@define RH 50
+
+Device
+{
+   meshfile = module.msh
+   mesh_units = 0.001
+   write_boundary_mesh = true
+
+   Region active { }
+   Region encapsulation { }
+
+   Region P1 { }
+   Region P2 { }
+   Region P3 { }
+
+}
+
+
+Module masstransport
+{
+  name = wi
+  plot = (PartialPressure, Concentration, Flux)
+
+  Physics
+  {
+   solubility = 0.01 #EVA 0.45 #POE 0.01 #PVB 0.45
+   diffusivity_0 = 9.37e-6 #EVA 3.21e-4 #POE 9.37e-6 #PVB 9.37e-7
+   diff_act_en = 0.415 #eV
+  }
+
+  Contact surface
+  {
+    relative_pressure = RH
+    molecule = H2O
+  }
+
+}
+
+
+Module masstransport
+{
+  name = oi
+
+  plot = (PartialPressure, Concentration, Flux)
+
+  Physics
+  {
+   solubility = 1.44e-3 #EVA 1.8e-3 #POE 1.44e-3 #PVB 0.72e-3
+   diffusivity_0 = 9.37e-5 #EVA 2.34e-3 #POE 9.37e-5 #PVB 9.37e-6
+   diff_act_en = 0.415 #eV
+  }
+
+  Contact surface
+  {
+    relative_pressure = 21
+    molecule = O2
+  }
+}
+
+
+Module degradation
+{
+  name = deg
+
+  cell_temperature = 320 #[K] 
+ 
+  n = 1.5e21 #1.5e21 [ph/m^2/s] 1 Sun equivalent photon flux -> generated carriers
+
+  p_h2o_sim = wi #wateringress 
+  p_o2_sim = oi #oxygeningress
+
+  plot = PerovskiteFraction
+
+}
+
+
+Module pvmodule 
+{
+  name = pv
+
+  spice_executable = /usr/sepp/bin/ngspice #the path where ngspice is installed
+
+  regions = (active, P1, P2, P3)
+
+  plot = (TopPotential, BottomPotential, CurrentDensity, ContactCurrent)
+
+  voltage = $Vb[0]
+
+  Physics
+  {
+    
+    # assume ITO/cell/ITO with 10 Ohm/sq
+    top_sheet_resistivity = 0.24 # Au
+    #top_sheet_resistivity = 8 # Carbon
+    bottom_sheet_resistivity = 10 # PET-ITO
+    #bottom_sheet_resistivity = 50 # alternative PET-ITO
+
+    P2_resistivity = 2.9e-7 # Au, thickness 100 nm,
+                            # along stack thickness 600 nm
+                            # reprojected on 200 um P2
+
+    elementary_cell equiv_1diode
+    { 
+      photocurrent = 0.01794
+      series_resistance = 3.765
+      shunt_resistance = 1e12
+      saturation_current = 3.0349e-11
+      ideality_factor = 1.93
+
+      # here we define the degradation model
+      degradation activematerial {
+        
+        psk_fraction = deg 
+
+        photocurrent {
+          exponent = 1 
+        }
+
+        series_resistance {
+          exponent = 1 
+        }
+      }
+    }
+
+  }
+
+  Contact anode
+  {
+    type = source
+    layer = both
+  }
+
+  Contact cathode
+  {
+    type = ground
+    layer = both
+  }
+
+}
+
+Module sweep
+{
+  name = evolution
+  solve = (wi,oi,deg)
+  variable = $time
+  values = (0:1e4:1e5,1.5e5:5e4:1e6,1.5e6:5e5:2.5e6) 
+  plot_data = (0, 1e5, 1e6, 2.5e6)
+}
+
+Module sweep
+{
+  name = equiv_circ
+  solve = pv
+  variable = $Vb
+  values = (0:1.0:4.0,4.5:0.5:5.5)
+  plot_data = (0,4.5,5.5)
+}
+
+Simulation
+{
+  verbose = 2
+
+  solve = (evolution, equiv_circ)
+
+  temperature = 320
+  
+  resultpath = "POE_T_320_t_3_RH"RH
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

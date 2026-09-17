@@ -1,0 +1,964 @@
+
+Log start: Wed Sep 16 11:16:43 2026
+
+
+Writing log to POE_T320_RH50/module.log.0
+tiberCAD release 3.5.0-25-gfc1b5847 compiled on 2026-02-16 (x86_64-linux)
+nano16 4.19.0-16-amd64 #1 SMP Debian 4.19.181-1 (2021-03-19) x86_64 GNU/Linux
+
+Input file: module.tib
+
+Initialize global simulation options
+  Simulation temperature: 320 K
+  Database search path  : /home/adivito/TiberCAD/tibercad/materials
+  Module library path   : .:/home/adivito/TiberCAD/tibercad/x86_64-linux/modules
+  Log file              : POE_T320_RH50/module.log.0
+
+Setup mesh
+  Reading mesh file 'module.msh ...
+    mesh reading time: 0h 0m 0.053s
+    mesh preparation time: 0h 0m 0.025s
+    bd_regions preparation time: 0h 0m 0.00033s
+
+    mesh units          : 0.001 m
+    mesh dimension      :       2
+    number of nodes     :   10390
+    number of elements  :   15821
+    number of subdomains:       5
+    number of boundaries:       3
+
+Create materials ...
+
+*** Warning: Cannot open material data file for none
+
+*** Warning: Cannot open material data file for none
+  Added material none for region 'active' (mesh regions 5)
+    (using datafile )
+
+*** Warning: Cannot open material data file for none
+
+*** Warning: Cannot open material data file for none
+  Added material none for region 'encapsulation' (mesh regions 4)
+    (using datafile )
+
+*** Warning: Cannot open material data file for none
+
+*** Warning: Cannot open material data file for none
+  Added material none for region 'P1' (mesh regions 6)
+    (using datafile )
+
+*** Warning: Cannot open material data file for none
+
+*** Warning: Cannot open material data file for none
+  Added material none for region 'P2' (mesh regions 7)
+    (using datafile )
+
+*** Warning: Cannot open material data file for none
+
+*** Warning: Cannot open material data file for none
+  Added material none for region 'P3' (mesh regions 8)
+    (using datafile )
+Creation of materials done.
+
+Setting up simulation of type 'masstransport' ...
+  (using /home/adivito/TiberCAD/tibercad/x86_64-linux/modules/masstransport/masstransport.so)
+    Adding boundary 'surface'
+    (using /home/adivito/TiberCAD/tibercad/x86_64-linux/modules/masstransport/contact_pressure.so)
+  Creating bulk models... 
+    Region: encapsulation
+    Region: active
+    Region: P1
+    Region: P2
+    Region: P3
+
+Setting up simulation of type 'masstransport' ...
+  (using /home/adivito/TiberCAD/tibercad/x86_64-linux/modules/masstransport/masstransport.so)
+    Adding boundary 'surface'
+    (using /home/adivito/TiberCAD/tibercad/x86_64-linux/modules/masstransport/contact_pressure.so)
+  Creating bulk models... 
+    Region: encapsulation
+    Region: active
+    Region: P1
+    Region: P2
+    Region: P3
+
+Setting up simulation of type 'degradation' ...
+  (using /home/adivito/TiberCAD/tibercad/x86_64-linux/modules/degradation/degradation.so)
+  Creating bulk models... 
+    Region: encapsulation
+    Region: active
+    Region: P1
+    Region: P2
+    Region: P3
+
+Setting up simulation of type 'pvmodule' ...
+  (using /home/adivito/TiberCAD/tibercad/x86_64-linux/modules/pvmodule/pvmodule.so)
+    Adding boundary 'anode'
+    Adding boundary 'cathode'
+  Creating bulk models... 
+    Region: active
+    Region: P1
+    Region: P2
+    Region: P3
+
+Setting up simulation of type 'sweep' ...
+
+Setting up simulation of type 'sweep' ...
+
+Setting up bulk models ...
+  (using /home/adivito/TiberCAD/tibercad/x86_64-linux/modules/pvmodule/elementary_cell_equiv_1diode.so)
+    (using /home/adivito/TiberCAD/tibercad/x86_64-linux/modules/pvmodule/degradation_activematerial.so)
+
+*** Warning: found unused options in block Physics: P2_resistivity
+  (using /home/adivito/TiberCAD/tibercad/x86_64-linux/modules/pvmodule/elementary_cell_equiv_1diode.so)
+    (using /home/adivito/TiberCAD/tibercad/x86_64-linux/modules/pvmodule/degradation_activematerial.so)
+  (using /home/adivito/TiberCAD/tibercad/x86_64-linux/modules/pvmodule/elementary_cell_equiv_1diode.so)
+    (using /home/adivito/TiberCAD/tibercad/x86_64-linux/modules/pvmodule/degradation_activematerial.so)
+
+*** Warning: found unused options in block Physics: P2_resistivity
+  (using /home/adivito/TiberCAD/tibercad/x86_64-linux/modules/pvmodule/elementary_cell_equiv_1diode.so)
+    (using /home/adivito/TiberCAD/tibercad/x86_64-linux/modules/pvmodule/degradation_activematerial.so)
+
+*** Warning: found unused options in block Physics: P2_resistivity
+
+Setting up lower dimensional (boundary) models ...
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Simulation options for wi (masstransport)
+MPI: rank 0 of communicator with size 1
+MPI: solver parallelized on 1 processes
+
+Available solution variables:
+------------------------------------------------------------------
+Name                     Units          Type      Association Plot
+------------------------------------------------------------------
+PartialPressure          Pa             real      nodal       y
+Concentration            g/cm^3         real      nodal       y
+RelativeHumidity         %              real      nodal       n
+Flux                     g/cm^2/s       vector    cell        y
+Solubility               g/cm^3/Pa      real      nodal       n
+Diffusivity              cm^2/s         real      nodal       n
+RegionIDs                               real      cell        n
+------------------------------------------------------------------
+
+Output directory      : POE_T320_RH50
+Output file format    : vtk
+Output file basename  : wi
+
+Simulation of mass transport based on Fick's laws
+
+# Region P1, none
+
+# Region P2, none
+
+# Region P3, none
+
+# Region active, none
+
+# Region encapsulation, none
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Simulation options for oi (masstransport)
+MPI: rank 0 of communicator with size 1
+MPI: solver parallelized on 1 processes
+
+Available solution variables:
+------------------------------------------------------------------
+Name                     Units          Type      Association Plot
+------------------------------------------------------------------
+PartialPressure          Pa             real      nodal       y
+Concentration            g/cm^3         real      nodal       y
+RelativeHumidity         %              real      nodal       n
+Flux                     g/cm^2/s       vector    cell        y
+Solubility               g/cm^3/Pa      real      nodal       n
+Diffusivity              cm^2/s         real      nodal       n
+RegionIDs                               real      cell        n
+------------------------------------------------------------------
+
+Output directory      : POE_T320_RH50
+Output file format    : vtk
+Output file basename  : oi
+
+Simulation of mass transport based on Fick's laws
+
+# Region P1, none
+
+# Region P2, none
+
+# Region P3, none
+
+# Region active, none
+
+# Region encapsulation, none
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Simulation options for deg (degradation)
+MPI: rank 0 of communicator with size 1
+MPI: solver parallelized on 1 processes
+
+Available solution variables:
+------------------------------------------------------------------
+Name                     Units          Type      Association Plot
+------------------------------------------------------------------
+PerovskiteFraction                      real      cell        y
+RegionIDs                               real      cell        n
+------------------------------------------------------------------
+
+Output directory      : POE_T320_RH50
+Output file format    : vtk
+Output file basename  : deg
+
+Kinetic model for the perovskite degradation
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Simulation options for pv (pvmodule)
+MPI: rank 0 of communicator with size 1
+MPI: solver parallelized on 1 processes
+
+Available solution variables:
+------------------------------------------------------------------
+Name                     Units          Type      Association Plot
+------------------------------------------------------------------
+TopPotential             V              real      nodal       y
+BottomPotential          V              real      nodal       y
+CellPotential            V              real      nodal       n
+CurrentDensity           A/cm^2         real      nodal       y
+ContactCurrent           A              real      none        y
+RegionIDs                               real      cell        n
+------------------------------------------------------------------
+
+Output directory      : POE_T320_RH50
+Output file format    : vtk
+Output file basename  : pv
+
+PVModule: lumped element model for photovoltaic module simulation.
+
+# Region P1, none
+  Type of region : P1
+  Top    sheet resistivity : 0.24 Ohms/sq
+  Bottom sheet resistivity : 10 Ohms/sq
+
+# Region P2, none
+  Type of region : P2
+  Top    sheet resistivity : 0.24 Ohms/sq
+  Bottom sheet resistivity : 10 Ohms/sq
+
+# Region P3, none
+  Type of region : P3
+  Top    sheet resistivity : 0.24 Ohms/sq
+  Bottom sheet resistivity : 10 Ohms/sq
+
+# Region active, none
+  Type of region : active
+  Top    sheet resistivity : 0.24 Ohms/sq
+  Bottom sheet resistivity : 10 Ohms/sq
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Simulation options for evolution (sweep)
+MPI: rank 0 of communicator with size 1
+MPI: solver parallelized on 1 processes
+
+Output directory      : POE_T320_RH50
+Output file format    : vtk
+Output file basename  : evolution
+
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Simulation options for equiv_circ (sweep)
+MPI: rank 0 of communicator with size 1
+MPI: solver parallelized on 1 processes
+
+Output directory      : POE_T320_RH50
+Output file format    : vtk
+Output file basename  : equiv_circ
+
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+We solve: evolution equiv_circ 
+
+>>>>------------------------------- (evolution) --------------------------------
+  Ramping to sweep value $time = 0
+
+*** Warning: wi has never been solved before ramping.
+
+*** Warning: oi has never been solved before ramping.
+
+*** Warning: deg has never been solved before ramping.
+  Trying $time = 0
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 1.5e-05s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 4.1e-06s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 8.1e-06s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 10000
+  Trying $time = 10000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.11s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.09s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.53s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 20000
+  Trying $time = 20000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.084s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.087s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.53s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 30000
+  Trying $time = 30000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.085s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.088s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.53s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 40000
+  Trying $time = 40000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.086s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.09s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.54s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 50000
+  Trying $time = 50000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.084s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.089s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.54s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 60000
+  Trying $time = 60000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.083s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.089s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.53s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 70000
+  Trying $time = 70000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.083s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.09s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.53s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 80000
+  Trying $time = 80000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.083s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.09s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.53s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 90000
+  Trying $time = 90000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.084s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.089s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.53s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 100000
+  Trying $time = 100000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.083s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.09s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.54s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 150000
+  Trying $time = 150000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.087s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.095s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.54s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 200000
+  Trying $time = 200000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.087s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.095s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.53s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 250000
+  Trying $time = 250000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.087s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.096s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.53s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 300000
+  Trying $time = 300000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.087s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.094s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.54s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 350000
+  Trying $time = 350000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.095s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.096s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.54s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 400000
+  Trying $time = 400000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.088s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.095s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.54s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 450000
+  Trying $time = 450000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.088s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.094s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.54s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 500000
+  Trying $time = 500000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.087s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.095s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.55s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 550000
+  Trying $time = 550000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.091s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.095s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.54s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 600000
+  Trying $time = 600000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.087s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.095s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.54s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 650000
+  Trying $time = 650000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.088s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.095s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.54s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 700000
+  Trying $time = 700000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.087s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.095s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.53s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 750000
+  Trying $time = 750000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.087s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.094s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.54s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 800000
+  Trying $time = 800000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.087s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.094s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.54s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 850000
+  Trying $time = 850000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.088s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.095s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.53s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 900000
+  Trying $time = 900000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.088s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.095s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.54s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 950000
+  Trying $time = 950000
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.088s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.096s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.54s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 1e+06
+  Trying $time = 1e+06
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.088s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.094s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.54s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 1.5e+06
+  Trying $time = 1.5e+06
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.095s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.11s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.54s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 2e+06
+  Trying $time = 2e+06
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.095s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.11s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.53s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $time = 2.5e+06
+  Trying $time = 2.5e+06
+
+  >>>>---------------------------------- (wi) ----------------------------------
+
+  Solve time: 0h 0m 0.095s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>---------------------------------- (oi) ----------------------------------
+
+  Solve time: 0h 0m 0.11s
+  <<<<--------------------------------------------------------------------------
+
+  >>>>--------------------------------- (deg) ----------------------------------
+
+  Solve time: 0h 0m 0.54s
+  <<<<--------------------------------------------------------------------------
+
+Solve time: 0h 0m 25s
+<<<<----------------------------------------------------------------------------
+
+>>>>------------------------------- (equiv_circ) -------------------------------
+  Ramping to sweep value $Vb = 0
+
+*** Warning: pv has never been solved before ramping.
+  Trying $Vb = 0
+
+  >>>>---------------------------------- (pv) ----------------------------------
+
+    Setup of grid mapper: 0h 0m 0.0041s, memory usage: 0 MB 
+    calling Spice: /usr/sepp/bin/ngspice
+    parse ngspice results
+      Voltage at terminal : 0 V
+      Current at terminal : -0.00628559 A
+      Module power        : -0 W
+
+  Solve time: 0h 0m 55s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $Vb = 1
+  Trying $Vb = 1
+
+  >>>>---------------------------------- (pv) ----------------------------------
+    calling Spice: /usr/sepp/bin/ngspice
+    parse ngspice results
+      Voltage at terminal : 1 V
+      Current at terminal : -0.0062844 A
+      Module power        : -0.0062844 W
+
+  Solve time: 0h 0m 56s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $Vb = 2
+  Trying $Vb = 2
+
+  >>>>---------------------------------- (pv) ----------------------------------
+    calling Spice: /usr/sepp/bin/ngspice
+    parse ngspice results
+      Voltage at terminal : 2 V
+      Current at terminal : -0.00628321 A
+      Module power        : -0.0125664 W
+
+  Solve time: 0h 0m 54s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $Vb = 3
+  Trying $Vb = 3
+
+  >>>>---------------------------------- (pv) ----------------------------------
+    calling Spice: /usr/sepp/bin/ngspice
+    parse ngspice results
+      Voltage at terminal : 3 V
+      Current at terminal : -0.00628202 A
+      Module power        : -0.0188461 W
+
+  Solve time: 0h 0m 56s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $Vb = 4
+  Trying $Vb = 4
+
+  >>>>---------------------------------- (pv) ----------------------------------
+    calling Spice: /usr/sepp/bin/ngspice
+    parse ngspice results
+      Voltage at terminal : 4 V
+      Current at terminal : -0.00606572 A
+      Module power        : -0.0242629 W
+
+  Solve time: 0h 0m 52s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $Vb = 4.5
+  Trying $Vb = 4.5
+
+  >>>>---------------------------------- (pv) ----------------------------------
+    calling Spice: /usr/sepp/bin/ngspice
+    parse ngspice results
+      Voltage at terminal : 4.5 V
+      Current at terminal : -0.00267648 A
+      Module power        : -0.0120441 W
+
+  Solve time: 0h 0m 51s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $Vb = 5
+  Trying $Vb = 5
+
+  >>>>---------------------------------- (pv) ----------------------------------
+    calling Spice: /usr/sepp/bin/ngspice
+    parse ngspice results
+      Voltage at terminal : 5 V
+      Current at terminal : 0.00424742 A
+      Module power        : 0.0212371 W
+
+  Solve time: 0h 0m 52s
+  <<<<--------------------------------------------------------------------------
+  Ramping to sweep value $Vb = 5.5
+  Trying $Vb = 5.5
+
+  >>>>---------------------------------- (pv) ----------------------------------
+    calling Spice: /usr/sepp/bin/ngspice
+    parse ngspice results
+      Voltage at terminal : 5.5 V
+      Current at terminal : 0.0128855 A
+      Module power        : 0.0708703 W
+
+  Solve time: 0h 0m 52s
+  <<<<--------------------------------------------------------------------------
+
+Solve time: 0h 7m 7.7s
+<<<<----------------------------------------------------------------------------
+
+Total solve time: 0h 7m 33s
+Simulation finished.
+
+17 warnings during run
+0 errors detected
+
+
+Log end: Wed Sep 16 11:24:17 2026
+
+
