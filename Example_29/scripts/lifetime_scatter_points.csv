@@ -1,0 +1,547 @@
+entry_id,sealant,atmosphere,category,time_hours,pce_normalized,metric_type
+--7QgUnINWBA_TA8jw3CCbRCRrcH,Epoxy,Unknown,Other,0.0,1.0,Initial
+-0Q6xbgwCbN2vzwpL8ioH4bLWZBw,Threebond glue,Unknown,Other,5.0,0.8,T80
+-0Q6xbgwCbN2vzwpL8ioH4bLWZBw,Threebond glue,Unknown,Other,200.0,0.1447,PCE_end
+-0Q6xbgwCbN2vzwpL8ioH4bLWZBw,Threebond glue,Unknown,Other,0.0,1.0,Initial
+-3_TKBIqU31x67M0xYnSX-TyifrA,Unknown,Unknown,Other,0.0,1.0,Initial
+-3jEr11Mqu3sbb-n9-Bt2ycV3S1U,UV-curable epoxy,Air,EVA,400.0,0.116,PCE_end
+-3jEr11Mqu3sbb-n9-Bt2ycV3S1U,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+-4z5hW3amTxfasM1muJtJRt7FwHi,Surlyn,Unknown,Other,0.0,1.0,Initial
+-Dy6iG2HGrzkJzncPL-wKR4GtKx_,Unknown,Air,Other,25.0,0.8,T80
+-Dy6iG2HGrzkJzncPL-wKR4GtKx_,Unknown,Air,Other,1000.0,0.2913,PCE_1000h
+-Dy6iG2HGrzkJzncPL-wKR4GtKx_,Unknown,Air,Other,1100.0,0.0,PCE_end
+-Dy6iG2HGrzkJzncPL-wKR4GtKx_,Unknown,Air,Other,0.0,1.0,Initial
+-HbTzGqjtcc5dzg0SYj8sBBS95a_,Unknown,Air,Other,1000.0,0.0928,PCE_1000h
+-HbTzGqjtcc5dzg0SYj8sBBS95a_,Unknown,Air,Other,1000.0,0.0928,PCE_end
+-HbTzGqjtcc5dzg0SYj8sBBS95a_,Unknown,Air,Other,0.0,1.0,Initial
+-NVFD3CB0bWXVMOuicdAQ7Ao7FIE,Unknown,Unknown,Other,0.0,1.0,Initial
+-PA061L7KA8ZQadw977_g7GWUnif,Epoxy,Ambient,PVB_NextGen,1000.0,0.0424,PCE_end
+-PA061L7KA8ZQadw977_g7GWUnif,Epoxy,Ambient,PVB_NextGen,0.0,1.0,Initial
+-Q-p8yJ_h6obGs2_pWcNUgM9ghq9,Unknown,Unknown,Other,0.0,1.0,Initial
+-Q2DTa3umjTG642a7wONYKxYRDey,Unknown,Unknown,Other,0.0,1.0,Initial
+-RTK5XhMLhjVYt-ycaiXZK3j_J5e,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+-Rpdnrlm-qfQArsu_HUeyp15ZbZ8,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+-TjmFXKKWj7MzQKC6t-uYtmkXNk_,UV-glue,Unknown,Other,0.0,1.0,Initial
+-WVyQ6NolJll645nfe9xQ9o4vujE,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+-XjX-UuxVv6OPIQ1e3ckbiDzg-o5,Surlyn,Unknown,Other,0.0,1.0,Initial
+-Y04tWQBX8iQ2L67WxqHN0gHivKd,Unknown,Unknown,Other,0.0,1.0,Initial
+-eWS8lmenilr_Ql99sNf3f04Avsz,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+-eaCF57sZUMdID_qHVXWH7zZlIkX,Unknown,Unknown,Other,0.0,1.0,Initial
+-hOgNzfi0MPhpOEGCmSKWoM3-aDv,SLG,Unknown,Other,0.0,1.0,Initial
+-hX7bDzqDoD81A2rvcN-6tVYQXDX,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+-jLXvg5ccgqqD1pmSOyysTLGMC2a,Unknown,Unknown,Other,0.0,1.0,Initial
+-jNYqtzlZ_UOqKlDgrVF79TVtlia,Unknown,Unknown,Other,0.0,1.0,Initial
+-kZHwNlxAXzctKVg9rZ0i5ARC6iJ,Unknown,Air,Other,1000.0,0.0876,PCE_1000h
+-kZHwNlxAXzctKVg9rZ0i5ARC6iJ,Unknown,Air,Other,1000.0,0.0876,PCE_end
+-kZHwNlxAXzctKVg9rZ0i5ARC6iJ,Unknown,Air,Other,0.0,1.0,Initial
+-l4pmFin44MC3f47Fi3F9m0KVawk,Polyolefin elastomer,Unknown,Other,0.0,1.0,Initial
+-mHC-3eZ2e1VSU1pygWQ3_QH3s_B,Unknown,Unknown,Other,0.0,1.0,Initial
+-nW2A5J_bRxQ0S1cNSnrPdwF-Xna,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+-pCjsbFRDWCpnHDPfw_Rny_h58DH,Unknown,Air,Other,1670.0,0.8,T80
+-pCjsbFRDWCpnHDPfw_Rny_h58DH,Unknown,Air,Other,4.8,0.95,T95
+-pCjsbFRDWCpnHDPfw_Rny_h58DH,Unknown,Air,Other,1000.0,0.0521,PCE_1000h
+-pCjsbFRDWCpnHDPfw_Rny_h58DH,Unknown,Air,Other,1920.0,0.0461,PCE_end
+-pCjsbFRDWCpnHDPfw_Rny_h58DH,Unknown,Air,Other,0.0,1.0,Initial
+-qOsC7IvMO5q8rVApEzHopSiucbo,Unknown,Unknown,Other,0.0,1.0,Initial
+-sVDoVBXjf0gYX7DSsrBlzURy-Th,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+-yF3U78To2X85vkHkjjKNZP9yhur,Unknown,Unknown,Other,0.0,1.0,Initial
+-ztO_vHNYf_9uMsF5z3sekBzhysh,Unknown,N2,Other,720.0,0.0662,PCE_end
+-ztO_vHNYf_9uMsF5z3sekBzhysh,Unknown,N2,Other,0.0,1.0,Initial
+0-SskJ5z9jlRoGnAouJHJyQBXdDT,Unknown,Unknown,Other,0.0,1.0,Initial
+02xooCuXcEbWH9RwSoRmLaYHel9z,Unknown,Unknown,Other,0.0,1.0,Initial
+039TPWQSKB_FsvpUO9IDYa9naYBf,Unknown,Unknown,Other,0.0,1.0,Initial
+03FACy9Lx1u9ZnxehPdHYtsT5gqM,Unknown,Unknown,Other,0.0,1.0,Initial
+03_DS1UNdMbE90BDTNws7W-C5SWz,Unknown,Air,Other,96.0,0.8,T80
+03_DS1UNdMbE90BDTNws7W-C5SWz,Unknown,Air,Other,0.0,1.0,Initial
+03jsSCEcLIhU_lEmlm9WwFukVHpF,Epoxy,Unknown,Other,0.0,1.0,Initial
+055j_jqyv2C8701RwQomtR2wH1ts,Unknown,Unknown,Other,0.0,1.0,Initial
+05rp2yv6hgKPqsgfTEXz5Mc_CSlb,UV-glue,Unknown,Other,0.0,1.0,Initial
+06ECxqpPxUvUDudMWvYkmPQDDxYL,Unknown,Unknown,Other,0.0,1.0,Initial
+08fbmRpFsjh-heKUu8j8I_W32tv4,NOA 88,Air,PVB_NextGen,48.0,0.9061,PCE_end
+08fbmRpFsjh-heKUu8j8I_W32tv4,NOA 88,Air,PVB_NextGen,0.0,1.0,Initial
+0BVJBxkiqiMQ4NnWmr3Chk_12g6G,Unknown,Unknown,Other,0.0,1.0,Initial
+0CRQdg41gczRo0i8Hg2ZlZyeavGd,Unknown,Unknown,Other,0.0,1.0,Initial
+0DEVz5spJsNwT2tEwkyttLMb9kCE,Unknown,Unknown,Other,0.0,1.0,Initial
+0DMYgvR36flLsRShB8pgMZKzgGFq,Unknown,Unknown,Other,0.0,1.0,Initial
+0E90ay67YKyJQIq4fMRcrFzsWiDO,Unknown,Unknown,Other,0.0,1.0,Initial
+0HlF1oEpma8PMfEs_FeVXoFvT6Kb,Epoxy,Air,EVA,150.0,0.8,T80
+0HlF1oEpma8PMfEs_FeVXoFvT6Kb,Epoxy,Air,EVA,300.0,0.04,PCE_end
+0HlF1oEpma8PMfEs_FeVXoFvT6Kb,Epoxy,Air,EVA,0.0,1.0,Initial
+0IJQ_JtN82E5M6Cn7YGCYJVdu8T3,Unknown,Unknown,Other,0.0,1.0,Initial
+0KB8VvyrzkOFSFy6tddjmVVHWVVU,Unknown,Unknown,Other,0.0,1.0,Initial
+0OKd45vj74pifaOAlnFBeQ6AuLID,Unknown,Unknown,Other,0.0,1.0,Initial
+0QohSe4fbPHPh8Vf3HDhT-cHCDsa,Surlyn (Du Pont),Air,PVB_NextGen,1000.0,0.1008,PCE_1000h
+0QohSe4fbPHPh8Vf3HDhT-cHCDsa,Surlyn (Du Pont),Air,PVB_NextGen,10000.0,0.0966,PCE_end
+0QohSe4fbPHPh8Vf3HDhT-cHCDsa,Surlyn (Du Pont),Air,PVB_NextGen,0.0,1.0,Initial
+0Rsxw62J0CkE4NzUOYThfQxSnYvh,Unknown,Unknown,Other,0.0,1.0,Initial
+0Wdf-wQPDEyGhZo4TU14X9LR7D1N,Unknown,Unknown,Other,0.0,1.0,Initial
+0XilIUbFA8NIE_hJ6PziNc2R3yFd,Unknown,Unknown,Other,0.0,1.0,Initial
+0YNPeVvYmk7kmnqaBbtJ6wyZxMym,Unknown,Unknown,Other,0.0,1.0,Initial
+0YNRUv_Woe6s_hXMyp-mDhOPHfll,Unknown,Unknown,Other,0.0,1.0,Initial
+0Yb-cYTJhWpH8dVykVTybQ9WcwtO,UV-glue,Unknown,Other,0.0,1.0,Initial
+0arWlXl00DwXtT-fOOiCZIZJ7dUw,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+0cMJal4EhGygs-l3rbD4PpQmQLRJ,Unknown,Air,Other,1300.0,0.0577,PCE_end
+0cMJal4EhGygs-l3rbD4PpQmQLRJ,Unknown,Air,Other,0.0,1.0,Initial
+0fuCKqgGoxFizI9gl4ezbhS3pBYJ,Unknown,Unknown,Other,0.0,1.0,Initial
+0gIcAs0wYLayj9TnmitjBp-zjfMY,Unknown,Unknown,Other,0.0,1.0,Initial
+0gpIjcXZIPEFQcStF0V-mh3bmFxH,Unknown,Air,Other,200.0,0.8,T80
+0gpIjcXZIPEFQcStF0V-mh3bmFxH,Unknown,Air,Other,0.0,1.0,Initial
+0kjMrxRfbmIJHL4DaUAsk4WdjRj0,Unknown,Unknown,Other,0.0,1.0,Initial
+0mfpe5PcxW8gLTLk_6L_4hySBHF_,Unknown,Unknown,Other,0.0,1.0,Initial
+0vkep_oefzzd7irPqjKOpd0PJ6Jj,Unknown,Unknown,Other,0.0,1.0,Initial
+0xFCe4cpRNjWYYifagFjft0xxXjK,Unknown,Air,Other,60.0,0.8,T80
+0xFCe4cpRNjWYYifagFjft0xxXjK,Unknown,Air,Other,24.0,0.95,T95
+0xFCe4cpRNjWYYifagFjft0xxXjK,Unknown,Air,Other,0.0,1.0,Initial
+0yuF-kwaTJKerLEQZWqxvPQujfiG,Unknown,Unknown,Other,0.0,1.0,Initial
+0zG019x8LKxJ19DsMKeU2NzJeKu0,Unknown,Unknown,Other,0.0,1.0,Initial
+13eU7GjCBMQvNkyrNqYUFsr7XCVZ,Unknown,Air,Other,1000.0,0.0557,PCE_1000h
+13eU7GjCBMQvNkyrNqYUFsr7XCVZ,Unknown,Air,Other,1000.0,0.0557,PCE_end
+13eU7GjCBMQvNkyrNqYUFsr7XCVZ,Unknown,Air,Other,0.0,1.0,Initial
+14dyGixAWoqgznvgahNt4KdVKvRc,Unknown,Unknown,Other,0.0,1.0,Initial
+1B-IscIq2qNUpSYqf-MX_iGWW1yu,Unknown,Air,Other,1000.0,0.0653,PCE_1000h
+1B-IscIq2qNUpSYqf-MX_iGWW1yu,Unknown,Air,Other,7500.0,0.0627,PCE_end
+1B-IscIq2qNUpSYqf-MX_iGWW1yu,Unknown,Air,Other,0.0,1.0,Initial
+1BieEJrqO2agFwyv2QMjEJaJPGGD,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+1N5YnGQDR__6JEJGWNPJ-k94v3HB,Unknown,Unknown,Other,0.0,1.0,Initial
+1N_YKa1QlUn85lZsLz1anAynuXal,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+1Nl8HcZEx35yJOm2ePYEMDlPB3LA,Unknown,Unknown,Other,0.0,1.0,Initial
+1OfC40e8gTfS7EKPzxR1Ql2L9mwi,Epoxy,Unknown,Other,0.0,1.0,Initial
+1Py5BI5G092iSgCCixHg777Bl6gM,Unknown,Unknown,Other,0.0,1.0,Initial
+1V-eA7xDXdCju0L6Z7tq4KM5yAcs,Unknown,Unknown,Other,0.0,1.0,Initial
+1WUjENpvXzctGXYVE41Kv5MPseRC,Unknown,Unknown,Other,0.0,1.0,Initial
+1YdBOH9Qb2OE9FbOztw0pCCmLVhP,Unknown,Unknown,Other,0.0,1.0,Initial
+1bAiAbiJ1UJfpdkUItF2X7Zb6hDN,Unknown,Air,Other,200.0,0.0791,PCE_end
+1bAiAbiJ1UJfpdkUItF2X7Zb6hDN,Unknown,Air,Other,0.0,1.0,Initial
+1bIz2Jd-yNL9EzPhgy3ouPh8onrs,Unknown,Air,Other,200.0,0.8,T80
+1bIz2Jd-yNL9EzPhgy3ouPh8onrs,Unknown,Air,Other,300.0,0.0462,PCE_end
+1bIz2Jd-yNL9EzPhgy3ouPh8onrs,Unknown,Air,Other,0.0,1.0,Initial
+1cXFje2KQZ0VAgUuZQoCFtgLx8l2,Unknown,Unknown,Other,0.0,1.0,Initial
+1cusCDlRJOwfFpDIWRoOs92Px7kh,Unknown,Unknown,Other,0.0,1.0,Initial
+1eZPXSZNXUQeD94hpy7nVRXZv3ZO,Unknown,Air,Other,4800.0,0.0874,PCE_end
+1eZPXSZNXUQeD94hpy7nVRXZv3ZO,Unknown,Air,Other,0.0,1.0,Initial
+1i9JNiOc3F15UkWIb6XFlOWeE9UU,Unknown,Unknown,Other,100.0,0.8,T80
+1i9JNiOc3F15UkWIb6XFlOWeE9UU,Unknown,Unknown,Other,1000.0,0.0489,PCE_1000h
+1i9JNiOc3F15UkWIb6XFlOWeE9UU,Unknown,Unknown,Other,4320.0,0.0421,PCE_end
+1i9JNiOc3F15UkWIb6XFlOWeE9UU,Unknown,Unknown,Other,0.0,1.0,Initial
+1iL1TE4oxjM4AX9NOcMm9xyjrJia,UV-curable epoxy (Ossila E131),Unknown,Other,0.0,1.0,Initial
+1jIbyMzCIhKW2g07my07HqAfwhU4,Epoxy,Unknown,Other,0.0,1.0,Initial
+1lWxylFFWU6YgUC6IFvyE9Z6D4nN,Unknown,Unknown,Other,0.0,1.0,Initial
+1sywKtSaIsvkLb9eZKJ3XEogBlWk,Unknown,Unknown,Other,400.0,0.1144,PCE_end
+1sywKtSaIsvkLb9eZKJ3XEogBlWk,Unknown,Unknown,Other,0.0,1.0,Initial
+1uo-JAvsCfCY8d-hI7csdcO0mEvl,Unknown,Air,Other,1000.0,0.0447,PCE_1000h
+1uo-JAvsCfCY8d-hI7csdcO0mEvl,Unknown,Air,Other,1000.0,0.0446,PCE_end
+1uo-JAvsCfCY8d-hI7csdcO0mEvl,Unknown,Air,Other,0.0,1.0,Initial
+1w6VeUMt9jsLp4S3PL75qYRk1-Re,Epoxy,Unknown,Other,0.0,1.0,Initial
+1yCNzQ1g4_4s-i9ZIz_40TSCMlPZ,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+1zL6XXINZVCx4LOo4MsGvjAw1unk,Unknown,Unknown,Other,0.0,1.0,Initial
+2-AQvDx-CpIPhLwk8aG4xBgv1zV9,Unknown,Unknown,Other,0.0,1.0,Initial
+20jDZGMgPH3ZCf-cjYw6UdeP4zka,Unknown,Air,Other,840.0,0.1124,PCE_end
+20jDZGMgPH3ZCf-cjYw6UdeP4zka,Unknown,Air,Other,0.0,1.0,Initial
+22jIKGpbGe3I4ZnaSxJFCih553rw,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+23pHnSmMXL5qSxMadVAhc4H23Mqq,Unknown,Unknown,Other,0.0,1.0,Initial
+2ArxXL97LTzfIa_XajySTtSy7ea1,Unknown,Air,Other,1000.0,0.0452,PCE_1000h
+2ArxXL97LTzfIa_XajySTtSy7ea1,Unknown,Air,Other,1000.0,0.0452,PCE_end
+2ArxXL97LTzfIa_XajySTtSy7ea1,Unknown,Air,Other,0.0,1.0,Initial
+2C4rnvRvOvBXUTPCdMDqWVb9rH-c,Unknown,Ambient,Other,670.0,0.1186,PCE_end
+2C4rnvRvOvBXUTPCdMDqWVb9rH-c,Unknown,Ambient,Other,0.0,1.0,Initial
+2C7poZ_M87A1fo6A320g_QIpGpcn,Unknown,Unknown,Other,0.0,1.0,Initial
+2DZFiOkTdcch4PFbmD6Yu15Cs8vg,Unknown,Unknown,Other,0.0,1.0,Initial
+2DdQuxDiQKNTOlR3erh84b4hGXGX,Unknown,Unknown,Other,0.0,1.0,Initial
+2FybN0S-3wR16xGmbG_S0UV0Ob3q,Unknown,Air,Other,1440.0,0.0639,PCE_end
+2FybN0S-3wR16xGmbG_S0UV0Ob3q,Unknown,Air,Other,0.0,1.0,Initial
+2GbWh9-kRIlx1Ohi4Dd0yPf6PhC4,Unknown,Unknown,Other,0.0,1.0,Initial
+2GjbB8AF_rOJxMSryKokEfjeb_Cm,Unknown,Unknown,Other,44.0,0.8,T80
+2GjbB8AF_rOJxMSryKokEfjeb_Cm,Unknown,Unknown,Other,300.0,0.6506,PCE_end
+2GjbB8AF_rOJxMSryKokEfjeb_Cm,Unknown,Unknown,Other,0.0,1.0,Initial
+2GutkJkG0RlCooHn9d4vtVQ09gTU,Epoxy adhesive,Unknown,Other,0.0,1.0,Initial
+2N0eb_SQamNwTN9OpPTGTahf8AXu,Unknown,Air,Other,95.0,0.0279,PCE_end
+2N0eb_SQamNwTN9OpPTGTahf8AXu,Unknown,Air,Other,0.0,1.0,Initial
+2N66orM8SdI4x2HLb2hnJn_46uNe,Unknown,Unknown,Other,0.0,1.0,Initial
+2NsIhDsBYdBmtKHw1tLKV6Ut8xug,Epoxy,Unknown,Other,0.0,1.0,Initial
+2QzbutUBfACT93KJ6wStpnP4HpIU,Unknown,Unknown,Other,0.0,1.0,Initial
+2UMIMl57ZEKwSua41X_cO38Tfhg8,Surlyn,Unknown,Other,0.0,1.0,Initial
+2YJPOY4n8P-zrZncxuLlMHBTk5dv,Unknown,Unknown,Other,0.0,1.0,Initial
+2aN8mHATgpCdwWUvLFkMRSoy6WcL,Unknown,Unknown,Other,0.0,1.0,Initial
+2jWt_0DDzFhqFhxdYGRd59h6FrAK,467 MP 3M Adhesive Transfer Tape,Unknown,Other,0.0,1.0,Initial
+2kzIFctCCGT5x0OcEPjp5zPXQ3hA,Unknown,Ambient,Other,96.0,0.045,PCE_end
+2kzIFctCCGT5x0OcEPjp5zPXQ3hA,Unknown,Ambient,Other,0.0,1.0,Initial
+2nfc-NiFE8fKgxM_GDHGM51PluCm,Cover glass-QDs,Air,Other,168.0,0.0246,PCE_end
+2nfc-NiFE8fKgxM_GDHGM51PluCm,Cover glass-QDs,Air,Other,0.0,1.0,Initial
+2pcJLEoPNXuUFWxHFadxAst3hCTJ,Surlyn,Unknown,Other,0.0,1.0,Initial
+2rR0qvAbKFO1V-buYhbtjkr2yh4u,Unknown,Unknown,Other,0.0,1.0,Initial
+2wtWP4c8hwkj1E2JBBY-BMs4SEIT,Unknown,Unknown,Other,0.0,1.0,Initial
+2xBIdo40cFTTcohSm9KwOegK7_Ny,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+35qfNcdzR3QSB0POEiUynnvBNjA4,Unknown,Unknown,Other,0.0,1.0,Initial
+36GREK7Xp659nEShxI8z6tbKstMP,Epoxy adhesive,Unknown,Other,0.0,1.0,Initial
+38bC2uwu7FL_f0lN2n5XwkRytK3Q,Unknown,N2,Other,800.0,0.049,PCE_end
+38bC2uwu7FL_f0lN2n5XwkRytK3Q,Unknown,N2,Other,0.0,1.0,Initial
+3D5FseeMXXvW6FQfgfRSOBKV1WDo,Unknown,Unknown,Other,0.0,1.0,Initial
+3GQsu9EYTIVon89h_FBpBnaRirk8,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+3V4f88ZvDF_DM9E7kG0Xa6lIu8hW,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+3V_PFmNk1GruaWn-kNBwCqtBMnX8,Epoxy,Unknown,Other,0.0,1.0,Initial
+3j6Pjd7IW6dDsFtDa4sURs5SAS4v,Surlyn,Air,PVB_NextGen,1.0,0.8,T80
+3j6Pjd7IW6dDsFtDa4sURs5SAS4v,Surlyn,Air,PVB_NextGen,800.0,0.0,PCE_end
+3j6Pjd7IW6dDsFtDa4sURs5SAS4v,Surlyn,Air,PVB_NextGen,0.0,1.0,Initial
+3sbqqrs2LPj3238ieEUCHPGsDPDW,Polydimethylsiloxane,Unknown,Other,0.0,1.0,Initial
+4KejaNoPEcFsu1HYrCGTUHtO_uAg,UV-curable epoxy,Dry air,PVB_NextGen,2300.0,0.8,T80
+4KejaNoPEcFsu1HYrCGTUHtO_uAg,UV-curable epoxy,Dry air,PVB_NextGen,1000.0,0.0761,PCE_1000h
+4KejaNoPEcFsu1HYrCGTUHtO_uAg,UV-curable epoxy,Dry air,PVB_NextGen,3860.0,0.0624,PCE_end
+4KejaNoPEcFsu1HYrCGTUHtO_uAg,UV-curable epoxy,Dry air,PVB_NextGen,0.0,1.0,Initial
+4cNduxaoddWVdmHQ4TLDD2JIJ4we,UV-curable epoxy (ThreeBond),Air,PVB_NextGen,2.0,0.8,T80
+4cNduxaoddWVdmHQ4TLDD2JIJ4we,UV-curable epoxy (ThreeBond),Air,PVB_NextGen,0.5,0.95,T95
+4cNduxaoddWVdmHQ4TLDD2JIJ4we,UV-curable epoxy (ThreeBond),Air,PVB_NextGen,48.0,0.0426,PCE_end
+4cNduxaoddWVdmHQ4TLDD2JIJ4we,UV-curable epoxy (ThreeBond),Air,PVB_NextGen,0.0,1.0,Initial
+4km8vguwqYAw25uHqqQqFGAAX98O,Clamp,Unknown,Other,5.15,0.1296,PCE_end
+4km8vguwqYAw25uHqqQqFGAAX98O,Clamp,Unknown,Other,0.0,1.0,Initial
+64OBgE-tuIQ8yPYasHrq0D1oJ4IU,UV-curable epoxy,Unknown,Other,720.0,0.0593,PCE_end
+64OBgE-tuIQ8yPYasHrq0D1oJ4IU,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+7WnDLrD48gK4fUv277UV5Ih0OdoD,Epoxy,Air,EVA,2880.0,0.8,T80
+7WnDLrD48gK4fUv277UV5Ih0OdoD,Epoxy,Air,EVA,1000.0,0.0596,PCE_1000h
+7WnDLrD48gK4fUv277UV5Ih0OdoD,Epoxy,Air,EVA,2880.0,0.053,PCE_end
+7WnDLrD48gK4fUv277UV5Ih0OdoD,Epoxy,Air,EVA,0.0,1.0,Initial
+7vXOhmbXNGssXxuGIA3HMYECGofk,UV-glue,Air,EVA,55.0,0.8,T80
+7vXOhmbXNGssXxuGIA3HMYECGofk,UV-glue,Air,EVA,0.0,1.0,Initial
+87ownNcxbxlz-vPtuOVLoQsWDlLH,UV-curable epoxy,Air,PVB_NextGen,1000.0,0.0812,PCE_1000h
+87ownNcxbxlz-vPtuOVLoQsWDlLH,UV-curable epoxy,Air,PVB_NextGen,1000.0,0.0812,PCE_end
+87ownNcxbxlz-vPtuOVLoQsWDlLH,UV-curable epoxy,Air,PVB_NextGen,0.0,1.0,Initial
+8CkBpTKkkTzeDQUlBMWuydhNSWnP,UV-glue,Air,EVA,25.0,0.02,PCE_end
+8CkBpTKkkTzeDQUlBMWuydhNSWnP,UV-glue,Air,EVA,0.0,1.0,Initial
+8NZiMai18i6FXv7YoX8AL5GbH5J3,Polyisobutylene,Air,POE,346.0,0.025,PCE_end
+8NZiMai18i6FXv7YoX8AL5GbH5J3,Polyisobutylene,Air,POE,0.0,1.0,Initial
+8z4QOb9g3A7NYXpZEya8Qos6MjiZ,UV-curable epoxy,Air. Desiccator,PVB_NextGen,600.0,0.8,T80
+8z4QOb9g3A7NYXpZEya8Qos6MjiZ,UV-curable epoxy,Air. Desiccator,PVB_NextGen,10.0,0.95,T95
+8z4QOb9g3A7NYXpZEya8Qos6MjiZ,UV-curable epoxy,Air. Desiccator,PVB_NextGen,1000.0,0.0429,PCE_1000h
+8z4QOb9g3A7NYXpZEya8Qos6MjiZ,UV-curable epoxy,Air. Desiccator,PVB_NextGen,1000.0,0.0429,PCE_end
+8z4QOb9g3A7NYXpZEya8Qos6MjiZ,UV-curable epoxy,Air. Desiccator,PVB_NextGen,0.0,1.0,Initial
+9ZAjlHujaYLpP1W1QA38s09_AdIZ,Epoxy,Ambient,PVB_NextGen,1000.0,0.0406,PCE_end
+9ZAjlHujaYLpP1W1QA38s09_AdIZ,Epoxy,Ambient,PVB_NextGen,0.0,1.0,Initial
+9uVPj28XA6EmE87EonvWUcKabxIY,Epoxy,Air,EVA,20.0,0.0833,PCE_end
+9uVPj28XA6EmE87EonvWUcKabxIY,Epoxy,Air,EVA,0.0,1.0,Initial
+A1TzA01cn2X-7QPA2eZA--kAtz6D,Epoxy,Air,EVA,2200.0,0.8,T80
+A1TzA01cn2X-7QPA2eZA--kAtz6D,Epoxy,Air,EVA,0.0,1.0,Initial
+AALF9fRKD_0Dm_P85J-OSRDfhWkT,UV-curable epoxy,Air,EVA,100.0,0.0556,PCE_end
+AALF9fRKD_0Dm_P85J-OSRDfhWkT,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+ABkJWPRVk0EQmYXbm6ancOixeORk,UV-curable epoxy,Air,PVB_NextGen,0.5,0.8,T80
+ABkJWPRVk0EQmYXbm6ancOixeORk,UV-curable epoxy,Air,PVB_NextGen,2.0,0.0326,PCE_end
+ABkJWPRVk0EQmYXbm6ancOixeORk,UV-curable epoxy,Air,PVB_NextGen,0.0,1.0,Initial
+AXP9CvysbMnKC0jQHAOOWX_C3kC0,UV-curable epoxy (ThreeBond),Air,EVA,2.0,0.8,T80
+AXP9CvysbMnKC0jQHAOOWX_C3kC0,UV-curable epoxy (ThreeBond),Air,EVA,0.5,0.95,T95
+AXP9CvysbMnKC0jQHAOOWX_C3kC0,UV-curable epoxy (ThreeBond),Air,EVA,48.0,0.0449,PCE_end
+AXP9CvysbMnKC0jQHAOOWX_C3kC0,UV-curable epoxy (ThreeBond),Air,EVA,0.0,1.0,Initial
+B5pTKuIkcz_WpeUWh5Mb9a31gjmc,Epoxy,N2,Other,400.0,0.8,T80
+B5pTKuIkcz_WpeUWh5Mb9a31gjmc,Epoxy,N2,Other,500.0,0.0714,PCE_end
+B5pTKuIkcz_WpeUWh5Mb9a31gjmc,Epoxy,N2,Other,0.0,1.0,Initial
+BRhoGnW2t5LbagNuypeFFbMy2qBl,Epoxy,Air,PVB_NextGen,500.0,0.0706,PCE_end
+BRhoGnW2t5LbagNuypeFFbMy2qBl,Epoxy,Air,PVB_NextGen,0.0,1.0,Initial
+BSATQhh_5QcyJtmogXUAeVHzbXeM,Epoxy,Air,EVA,120.0,0.0817,PCE_end
+BSATQhh_5QcyJtmogXUAeVHzbXeM,Epoxy,Air,EVA,0.0,1.0,Initial
+BvPOI3c7yfGDp52oX2z3q-_M00tI,UV-curable epoxy,Air,PVB_NextGen,500.0,0.8,T80
+BvPOI3c7yfGDp52oX2z3q-_M00tI,UV-curable epoxy,Air,PVB_NextGen,0.0,1.0,Initial
+CleHUMgIjnpT7RmZV3Ekz-91KZ8S,UV-curable epoxy,Air,PVB_NextGen,120.0,0.0408,PCE_end
+CleHUMgIjnpT7RmZV3Ekz-91KZ8S,UV-curable epoxy,Air,PVB_NextGen,0.0,1.0,Initial
+Cve3inSZeMPJ-kclee8BYQA4znoM,Epoxy,N2,Other,1680.0,0.0541,PCE_end
+Cve3inSZeMPJ-kclee8BYQA4znoM,Epoxy,N2,Other,0.0,1.0,Initial
+D0-D4hNWSWRD-hiQflKO5sLhX_y6,UV-curable epoxy,Air,EVA,1582.0,0.8,T80
+D0-D4hNWSWRD-hiQflKO5sLhX_y6,UV-curable epoxy,Air,EVA,1000.0,0.0652,PCE_1000h
+D0-D4hNWSWRD-hiQflKO5sLhX_y6,UV-curable epoxy,Air,EVA,2200.0,0.0544,PCE_end
+D0-D4hNWSWRD-hiQflKO5sLhX_y6,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+Ed-D8HO2IeAfDyxGUDJ90vc9sI1z,467 MP 3M Adhesive Transfer Tape,Air,EVA,500.0,0.0833,PCE_end
+Ed-D8HO2IeAfDyxGUDJ90vc9sI1z,467 MP 3M Adhesive Transfer Tape,Air,EVA,0.0,1.0,Initial
+EdwBf1o_NewM5keDTGXwOxEuyZbQ,"Epoxy (XNR 5516Z-B1, Nagase ChemteX Corporation)",Air,PVB_NextGen,1000.0,0.0458,PCE_1000h
+EdwBf1o_NewM5keDTGXwOxEuyZbQ,"Epoxy (XNR 5516Z-B1, Nagase ChemteX Corporation)",Air,PVB_NextGen,1000.0,0.0458,PCE_end
+EdwBf1o_NewM5keDTGXwOxEuyZbQ,"Epoxy (XNR 5516Z-B1, Nagase ChemteX Corporation)",Air,PVB_NextGen,0.0,1.0,Initial
+EnwZeP-m1E7m016fq1gFpn-_Ywb1,Epoxy; Polymer,Unknown,Other,1000.0,0.2964,PCE_1000h
+EnwZeP-m1E7m016fq1gFpn-_Ywb1,Epoxy; Polymer,Unknown,Other,1000.0,0.2964,PCE_end
+EnwZeP-m1E7m016fq1gFpn-_Ywb1,Epoxy; Polymer,Unknown,Other,0.0,1.0,Initial
+EqNHukpycOAKbSyYox1SMAAwSV3n,UV-curable epoxy,Air,EVA,36.0,0.0574,PCE_end
+EqNHukpycOAKbSyYox1SMAAwSV3n,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+EtKJa1AEBvFzvbatOoMlo5RC5cRp,Epoxy,Air,EVA,40.0,0.8,T80
+EtKJa1AEBvFzvbatOoMlo5RC5cRp,Epoxy,Air,EVA,150.0,0.0176,PCE_end
+EtKJa1AEBvFzvbatOoMlo5RC5cRp,Epoxy,Air,EVA,0.0,1.0,Initial
+FJ5YydCwEfc2pzBgJPH3mVxIsN1y,Surlyn,Air,PVB_NextGen,800.0,0.041,PCE_end
+FJ5YydCwEfc2pzBgJPH3mVxIsN1y,Surlyn,Air,PVB_NextGen,0.0,1.0,Initial
+FU8uvJzacV6Ge-do8AHBriRqzQ7r,Epoxy,Ambient,PVB_NextGen,100.0,0.0378,PCE_end
+FU8uvJzacV6Ge-do8AHBriRqzQ7r,Epoxy,Ambient,PVB_NextGen,0.0,1.0,Initial
+GN8b82j-zfM5ML66ueLzwZ_1BWIt,UV-glue,Air,EVA,4500.0,0.0805,PCE_end
+GN8b82j-zfM5ML66ueLzwZ_1BWIt,UV-glue,Air,EVA,0.0,1.0,Initial
+Hb_ZvHQKOiNqIZBvD5-IDk8qpiNR,Polyisobutylene,Air,POE,540.0,0.0917,PCE_end
+Hb_ZvHQKOiNqIZBvD5-IDk8qpiNR,Polyisobutylene,Air,POE,0.0,1.0,Initial
+I7elfy9lYr1YeTYnZzlyuySScCLA,Epoxy,N2,Other,10.0,0.8,T80
+I7elfy9lYr1YeTYnZzlyuySScCLA,Epoxy,N2,Other,300.0,0.3488,PCE_end
+I7elfy9lYr1YeTYnZzlyuySScCLA,Epoxy,N2,Other,0.0,1.0,Initial
+IJq1R26jZUHzs6gtOOsZTsUR5-0B,UV-curable epoxy,Unknown,Other,500.0,0.06,PCE_end
+IJq1R26jZUHzs6gtOOsZTsUR5-0B,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+Indn8NJiZKewHn1SLXnfDDeRzrw7,UV-glue,Air,EVA,2670.0,0.0466,PCE_end
+Indn8NJiZKewHn1SLXnfDDeRzrw7,UV-glue,Air,EVA,0.0,1.0,Initial
+J4iPGUK0GJ2fdwfsP65-pGu1FYOq,UV-curable epoxy,Air,EVA,240.0,0.6757,PCE_end
+J4iPGUK0GJ2fdwfsP65-pGu1FYOq,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+JBsY5Aq6RlKz5QxVX8U8qGEWU4_O,UV-glue,Air,EVA,4500.0,0.1377,PCE_end
+JBsY5Aq6RlKz5QxVX8U8qGEWU4_O,UV-glue,Air,EVA,0.0,1.0,Initial
+JbZBFqiWaf7HmA-aUa46vosGinAz,SLG,Air,Other,1500.0,0.075,PCE_end
+JbZBFqiWaf7HmA-aUa46vosGinAz,SLG,Air,Other,0.0,1.0,Initial
+KDBRmQ0CxHGWQXi6NFLfxes7ooC4,SLG,N2,Other,1000.0,0.2,PCE_1000h
+KDBRmQ0CxHGWQXi6NFLfxes7ooC4,SLG,N2,Other,1000.0,0.2,PCE_end
+KDBRmQ0CxHGWQXi6NFLfxes7ooC4,SLG,N2,Other,0.0,1.0,Initial
+KTWtDyrfDyGlNQ3bIsYy7REy49qr,Surlyn,Air,PVB_NextGen,1000.0,0.1807,PCE_1000h
+KTWtDyrfDyGlNQ3bIsYy7REy49qr,Surlyn,Air,PVB_NextGen,1680.0,0.1707,PCE_end
+KTWtDyrfDyGlNQ3bIsYy7REy49qr,Surlyn,Air,PVB_NextGen,0.0,1.0,Initial
+KZ_3E4KMDQBQv0ZBB9Vu82U8XUXZ,UV-curable epoxy,Air,PVB_NextGen,200.0,0.95,T95
+KZ_3E4KMDQBQv0ZBB9Vu82U8XUXZ,UV-curable epoxy,Air,PVB_NextGen,200.0,0.0941,PCE_end
+KZ_3E4KMDQBQv0ZBB9Vu82U8XUXZ,UV-curable epoxy,Air,PVB_NextGen,0.0,1.0,Initial
+L8arSd9SMUC77uwKZgBXaxk50Ldd,UV-glue,Air,EVA,2670.0,0.0484,PCE_end
+L8arSd9SMUC77uwKZgBXaxk50Ldd,UV-glue,Air,EVA,0.0,1.0,Initial
+LWikUBoOdQESxOmy8n__dHOSr0Qs,UV-curable epoxy,Air,EVA,475.0,0.062,PCE_end
+LWikUBoOdQESxOmy8n__dHOSr0Qs,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+LgdUEJIO6_GWIZTThH1MabhNx54q,Surlyn,Ar,Other,250.0,0.8,T80
+LgdUEJIO6_GWIZTThH1MabhNx54q,Surlyn,Ar,Other,800.0,0.0275,PCE_end
+LgdUEJIO6_GWIZTThH1MabhNx54q,Surlyn,Ar,Other,0.0,1.0,Initial
+Lo93xHkdrXDXnr0AQXK3xqUJ9lSa,Epoxy,Air,EVA,3.0,0.8,T80
+Lo93xHkdrXDXnr0AQXK3xqUJ9lSa,Epoxy,Air,EVA,120.0,0.4179,PCE_end
+Lo93xHkdrXDXnr0AQXK3xqUJ9lSa,Epoxy,Air,EVA,0.0,1.0,Initial
+MOsaFtZo7etif8o-o-XMEGbQRmYR,Glue,Air,EVA,1000.0,0.0557,PCE_1000h
+MOsaFtZo7etif8o-o-XMEGbQRmYR,Glue,Air,EVA,1000.0,0.0557,PCE_end
+MOsaFtZo7etif8o-o-XMEGbQRmYR,Glue,Air,EVA,0.0,1.0,Initial
+MRCY7rlR87WmQlLIih7grzdk-OBn,Thermoplastic,Ambient,Other,140.0,0.9042,PCE_end
+MRCY7rlR87WmQlLIih7grzdk-OBn,Thermoplastic,Ambient,Other,0.0,1.0,Initial
+N-Ab-cb85bBzjzsap0KJDonqzFkH,UV-curable epoxy,Air,PVB_NextGen,1680.0,0.0435,PCE_end
+N-Ab-cb85bBzjzsap0KJDonqzFkH,UV-curable epoxy,Air,PVB_NextGen,0.0,1.0,Initial
+NUsb9e8X7ETmIuEAZDgiorogOPDL,UV-curable epoxy,Air,PVB_NextGen,1000.0,0.099,PCE_1000h
+NUsb9e8X7ETmIuEAZDgiorogOPDL,UV-curable epoxy,Air,PVB_NextGen,1000.0,0.099,PCE_end
+NUsb9e8X7ETmIuEAZDgiorogOPDL,UV-curable epoxy,Air,PVB_NextGen,0.0,1.0,Initial
+Nvy3NVtQ4PItzYiK52e_dKff5Wis,Thermoplastic,Ambient,Other,140.0,0.0513,PCE_end
+Nvy3NVtQ4PItzYiK52e_dKff5Wis,Thermoplastic,Ambient,Other,0.0,1.0,Initial
+OIkp8SP3gX2ny081r4ONPDQLEnpP,SLG,Unknown,Other,150.0,0.0654,PCE_end
+OIkp8SP3gX2ny081r4ONPDQLEnpP,SLG,Unknown,Other,0.0,1.0,Initial
+ON_R6GwJDHxNegWaQ8cveQ5R-9q9,UV-glue,Air,EVA,160.0,0.8,T80
+ON_R6GwJDHxNegWaQ8cveQ5R-9q9,UV-glue,Air,EVA,500.0,0.0247,PCE_end
+ON_R6GwJDHxNegWaQ8cveQ5R-9q9,UV-glue,Air,EVA,0.0,1.0,Initial
+OPd4F9ofim29CcITBxyQe8nuhjaI,UV-curable epoxy,Air,PVB_NextGen,1000.0,0.8,T80
+OPd4F9ofim29CcITBxyQe8nuhjaI,UV-curable epoxy,Air,PVB_NextGen,1000.0,0.0792,PCE_1000h
+OPd4F9ofim29CcITBxyQe8nuhjaI,UV-curable epoxy,Air,PVB_NextGen,1000.0,0.0792,PCE_end
+OPd4F9ofim29CcITBxyQe8nuhjaI,UV-curable epoxy,Air,PVB_NextGen,0.0,1.0,Initial
+Otn0RTdTDDRu2-1hLSy05pu_gReF,UV-curable epoxy,Unknown,Other,100.0,0.064,PCE_end
+Otn0RTdTDDRu2-1hLSy05pu_gReF,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+OwH0NQStJJVlrWnBb5rQlSH1tIcH,UV-curable epoxy,Air,EVA,240.0,0.0335,PCE_end
+OwH0NQStJJVlrWnBb5rQlSH1tIcH,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+Qzm5xy6h9YZ4dvvN2niMMeE8WMHb,Epoxy,Air,EVA,270.0,0.8,T80
+Qzm5xy6h9YZ4dvvN2niMMeE8WMHb,Epoxy,Air,EVA,300.0,0.0407,PCE_end
+Qzm5xy6h9YZ4dvvN2niMMeE8WMHb,Epoxy,Air,EVA,0.0,1.0,Initial
+R-z1Akcsq4kpTKVP8K0tpK_uBUZw,UV-curable epoxy (ThreeBond),Air,EVA,20.0,0.95,T95
+R-z1Akcsq4kpTKVP8K0tpK_uBUZw,UV-curable epoxy (ThreeBond),Air,EVA,48.0,0.0589,PCE_end
+R-z1Akcsq4kpTKVP8K0tpK_uBUZw,UV-curable epoxy (ThreeBond),Air,EVA,0.0,1.0,Initial
+RHMmknSnjhRMVFEOSNuP-TeASaV9,UV-curable epoxy,Air,EVA,36.0,0.0528,PCE_end
+RHMmknSnjhRMVFEOSNuP-TeASaV9,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+RP2HG01njHNPSNbUt_6kzjpBr6Jh,PDMS,Air,Other,1000.0,0.1266,PCE_1000h
+RP2HG01njHNPSNbUt_6kzjpBr6Jh,PDMS,Air,Other,3000.0,0.1266,PCE_end
+RP2HG01njHNPSNbUt_6kzjpBr6Jh,PDMS,Air,Other,0.0,1.0,Initial
+RxrenxXFR36S4HRbrkQsrvUJ9Ioi,UV-curable epoxy,Air,EVA,120.0,0.8,T80
+RxrenxXFR36S4HRbrkQsrvUJ9Ioi,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+S9jNv20EU7_g_2wbm3pLRh5g88xw,Light-curated glue,Ambient,PVB_NextGen,1000.0,0.98,PCE_1000h
+S9jNv20EU7_g_2wbm3pLRh5g88xw,Light-curated glue,Ambient,PVB_NextGen,1600.0,0.91,PCE_end
+S9jNv20EU7_g_2wbm3pLRh5g88xw,Light-curated glue,Ambient,PVB_NextGen,0.0,1.0,Initial
+SEpi50Dz0vGuREjPL3Qv6i-nCM-E,Thermoplastic,Ambient,Other,1980.0,0.2259,PCE_end
+SEpi50Dz0vGuREjPL3Qv6i-nCM-E,Thermoplastic,Ambient,Other,0.0,1.0,Initial
+SwW2ICozW1zVr7iLR_H9yLrcuTDP,UV-curable epoxy,Air,PVB_NextGen,0.16,0.8,T80
+SwW2ICozW1zVr7iLR_H9yLrcuTDP,UV-curable epoxy,Air,PVB_NextGen,0.83,0.027,PCE_end
+SwW2ICozW1zVr7iLR_H9yLrcuTDP,UV-curable epoxy,Air,PVB_NextGen,0.0,1.0,Initial
+TIYE1ZHC3_N8PJAw8jkVaDsI_3AG,Polyurathene,Air,Other,325.0,0.0991,PCE_end
+TIYE1ZHC3_N8PJAw8jkVaDsI_3AG,Polyurathene,Air,Other,0.0,1.0,Initial
+U1am2xBW8wEdpOlLXvw1lhEyX3WW,UV-curable epoxy,Air,EVA,54.0,0.0746,PCE_end
+U1am2xBW8wEdpOlLXvw1lhEyX3WW,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+Uh7R7dKfoqtPtWjY-IiOg3PMajhw,UV-curable epoxy,Air,EVA,528.0,0.8,T80
+Uh7R7dKfoqtPtWjY-IiOg3PMajhw,UV-curable epoxy,Air,EVA,1000.0,0.1151,PCE_1000h
+Uh7R7dKfoqtPtWjY-IiOg3PMajhw,UV-curable epoxy,Air,EVA,1680.0,0.098,PCE_end
+Uh7R7dKfoqtPtWjY-IiOg3PMajhw,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+VKaFqXNlE8G04s4JFecYYmb5VKHz,UV-curable epoxy,Air,EVA,720.0,0.0471,PCE_end
+VKaFqXNlE8G04s4JFecYYmb5VKHz,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+VT9Qv6Rm9f0-eu-6Byztmd9WsOrP,UV-curable epoxy,Air,PVB_NextGen,1350.0,0.8,T80
+VT9Qv6Rm9f0-eu-6Byztmd9WsOrP,UV-curable epoxy,Air,PVB_NextGen,1400.0,0.0384,PCE_end
+VT9Qv6Rm9f0-eu-6Byztmd9WsOrP,UV-curable epoxy,Air,PVB_NextGen,0.0,1.0,Initial
+VVudCwsMV3IILgYPdTxHjnS-XKe5,Surlyn,Ar,Other,800.0,0.0511,PCE_end
+VVudCwsMV3IILgYPdTxHjnS-XKe5,Surlyn,Ar,Other,0.0,1.0,Initial
+VnSZSz34DsPYL0pTHrzzp7Z4-TXm,Polydimethylsiloxane,Unknown,Other,0.0,1.0,Initial
+W1bAhgoi9n5k1OWkQDe1oxb1GeuA,UV-curable epoxy,Air,EVA,175.0,0.8,T80
+W1bAhgoi9n5k1OWkQDe1oxb1GeuA,UV-curable epoxy,Air,EVA,1000.0,0.0296,PCE_1000h
+W1bAhgoi9n5k1OWkQDe1oxb1GeuA,UV-curable epoxy,Air,EVA,3000.0,0.0177,PCE_end
+W1bAhgoi9n5k1OWkQDe1oxb1GeuA,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+WH1KYA37uyOFbCu0Oh8oAMqi_O43,SLG,Unknown,Other,100.0,0.0707,PCE_end
+WH1KYA37uyOFbCu0Oh8oAMqi_O43,SLG,Unknown,Other,0.0,1.0,Initial
+Wu70zsjHEcL8-IJFicnA3Td5ViYf,Butyl rubber,N2,Other,1000.0,0.8,T80
+Wu70zsjHEcL8-IJFicnA3Td5ViYf,Butyl rubber,N2,Other,0.0,1.0,Initial
+WyxUk20nY38isRaHpa0fkfYzC0TK,UV-curable epoxy,Air,EVA,160.0,0.0667,PCE_end
+WyxUk20nY38isRaHpa0fkfYzC0TK,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+XEEzu3aMeoypsNYkRYrdHWnPJlvu,UV-glue (ThreeBond),Ambient,EVA,43800.0,0.1667,PCE_end
+XEEzu3aMeoypsNYkRYrdHWnPJlvu,UV-glue (ThreeBond),Ambient,EVA,0.0,1.0,Initial
+Xod66rHQDY7wlY1LTrh3F0_-yN_q,Epoxy,Unknown,Other,600.0,0.0541,PCE_end
+Xod66rHQDY7wlY1LTrh3F0_-yN_q,Epoxy,Unknown,Other,0.0,1.0,Initial
+Xzt8mKzznEyzys3gaVO54-k4oE3r,Polyolefin elastomer,N2,Other,2250.0,0.075,PCE_end
+Xzt8mKzznEyzys3gaVO54-k4oE3r,Polyolefin elastomer,N2,Other,0.0,1.0,Initial
+Y-gQM-v2xn3D3yI5SHSdKojeQrQk,SLG,Unknown,Other,350.0,0.0643,PCE_end
+Y-gQM-v2xn3D3yI5SHSdKojeQrQk,SLG,Unknown,Other,0.0,1.0,Initial
+YBT77fr7tBy83VHj5jqV6BKOXZA-,Epoxy,N2,Other,225.0,0.1449,PCE_end
+YBT77fr7tBy83VHj5jqV6BKOXZA-,Epoxy,N2,Other,0.0,1.0,Initial
+YMzzJSrRDiGfR6fSAqpdkWRPW3Eo,UV-curable epoxy,Air,EVA,14.2,0.8,T80
+YMzzJSrRDiGfR6fSAqpdkWRPW3Eo,UV-curable epoxy,Air,EVA,700.0,0.0203,PCE_end
+YMzzJSrRDiGfR6fSAqpdkWRPW3Eo,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+YOCjfpn5goFccgFYSfPcSruFkOtX,UV-curable epoxy,Air,PVB_NextGen,1.16,0.8,T80
+YOCjfpn5goFccgFYSfPcSruFkOtX,UV-curable epoxy,Air,PVB_NextGen,2.0,0.045,PCE_end
+YOCjfpn5goFccgFYSfPcSruFkOtX,UV-curable epoxy,Air,PVB_NextGen,0.0,1.0,Initial
+YihrLpDKRw6LVfop2gow_HKLqSbP,Epoxy,Air,EVA,720.0,0.8,T80
+YihrLpDKRw6LVfop2gow_HKLqSbP,Epoxy,Air,EVA,720.0,0.0398,PCE_end
+YihrLpDKRw6LVfop2gow_HKLqSbP,Epoxy,Air,EVA,0.0,1.0,Initial
+Ynelc9xnRAI_YSR8IRXvcl2WXvw-,UV-glue,Air,EVA,349.0,0.8,T80
+Ynelc9xnRAI_YSR8IRXvcl2WXvw-,UV-glue,Air,EVA,0.0,1.0,Initial
+ZGur8NMjin0asQ4WTenGniDY_kMi,SLG,Unknown,Other,800.0,0.0276,PCE_end
+ZGur8NMjin0asQ4WTenGniDY_kMi,SLG,Unknown,Other,0.0,1.0,Initial
+ZQ_D_pNbR6-ImVhFfVyLKcEo4cBf,"UV-glue (3035B, ThreeBond Holdings)",Air,EVA,1500.0,0.207,PCE_end
+ZQ_D_pNbR6-ImVhFfVyLKcEo4cBf,"UV-glue (3035B, ThreeBond Holdings)",Air,EVA,0.0,1.0,Initial
+_E7SFm0pEzEWqRp1yUW0y1mi-N0O,Polyisobutylene,Air,POE,0.0,1.0,Initial
+__moQw2FTcgrRmajZwrd11RJqzx9,UV-glue,Air,EVA,25.0,0.0152,PCE_end
+__moQw2FTcgrRmajZwrd11RJqzx9,UV-glue,Air,EVA,0.0,1.0,Initial
+_kvQiiVTp4LfJ4Z6lGM8j-CeOTKJ,Epoxy,Ambient,PVB_NextGen,670.0,0.8,T80
+_kvQiiVTp4LfJ4Z6lGM8j-CeOTKJ,Epoxy,Ambient,PVB_NextGen,670.0,0.08,PCE_end
+_kvQiiVTp4LfJ4Z6lGM8j-CeOTKJ,Epoxy,Ambient,PVB_NextGen,0.0,1.0,Initial
+aQFV9JF9IjH6wOQjW2Kt4lgNn2qI,NOA 63,Air,PVB_NextGen,1000.0,0.0811,PCE_1000h
+aQFV9JF9IjH6wOQjW2Kt4lgNn2qI,NOA 63,Air,PVB_NextGen,1000.0,0.0811,PCE_end
+aQFV9JF9IjH6wOQjW2Kt4lgNn2qI,NOA 63,Air,PVB_NextGen,0.0,1.0,Initial
+aRsTBohaECHhY1JY9Q79hT127g9U,Epoxy,Air,EVA,1200.0,0.95,T95
+aRsTBohaECHhY1JY9Q79hT127g9U,Epoxy,Air,EVA,1000.0,0.155,PCE_1000h
+aRsTBohaECHhY1JY9Q79hT127g9U,Epoxy,Air,EVA,752.0,0.155,PCE_end
+aRsTBohaECHhY1JY9Q79hT127g9U,Epoxy,Air,EVA,0.0,1.0,Initial
+baGxXExSu08swWbQCuIPRRiI2u71,Epoxy,N2,Other,2000.0,0.8,T80
+baGxXExSu08swWbQCuIPRRiI2u71,Epoxy,N2,Other,1000.0,0.0558,PCE_1000h
+baGxXExSu08swWbQCuIPRRiI2u71,Epoxy,N2,Other,3000.0,0.0476,PCE_end
+baGxXExSu08swWbQCuIPRRiI2u71,Epoxy,N2,Other,0.0,1.0,Initial
+cin-oIMxgpA0wG4fH7TAjg1vYtY9,Epoxy,N2,Other,360.0,0.8,T80
+cin-oIMxgpA0wG4fH7TAjg1vYtY9,Epoxy,N2,Other,1680.0,0.9889,PCE_end
+cin-oIMxgpA0wG4fH7TAjg1vYtY9,Epoxy,N2,Other,0.0,1.0,Initial
+cl2V5sfJocgWqyqway6dxVWYrp6T,UV-curable epoxy,Air,PVB_NextGen,60.0,0.8,T80
+cl2V5sfJocgWqyqway6dxVWYrp6T,UV-curable epoxy,Air,PVB_NextGen,0.0,1.0,Initial
+csEHqhkghpMkkHqUuiaNX-rK8SVG,UV-curable epoxy,Air,EVA,100.0,0.1389,PCE_end
+csEHqhkghpMkkHqUuiaNX-rK8SVG,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+dj7wSBjnsntezZwAbXykgiboB3vf,UV-curable epoxy (ThreeBond),Air,EVA,2.0,0.8,T80
+dj7wSBjnsntezZwAbXykgiboB3vf,UV-curable epoxy (ThreeBond),Air,EVA,0.5,0.95,T95
+dj7wSBjnsntezZwAbXykgiboB3vf,UV-curable epoxy (ThreeBond),Air,EVA,48.0,0.0449,PCE_end
+dj7wSBjnsntezZwAbXykgiboB3vf,UV-curable epoxy (ThreeBond),Air,EVA,0.0,1.0,Initial
+eSOfctk6OceF2M-1RxhSj7O4xsZA,Surlyn,Air,PVB_NextGen,1000.0,0.0539,PCE_1000h
+eSOfctk6OceF2M-1RxhSj7O4xsZA,Surlyn,Air,PVB_NextGen,1440.0,0.0522,PCE_end
+eSOfctk6OceF2M-1RxhSj7O4xsZA,Surlyn,Air,PVB_NextGen,0.0,1.0,Initial
+edW-w1yN5snhuW-N_k6xEf0ETauy,Polyolefin elastomer,Air,POE,2000.0,0.1176,PCE_end
+edW-w1yN5snhuW-N_k6xEf0ETauy,Polyolefin elastomer,Air,POE,0.0,1.0,Initial
+ezgE6yvRgFDMs6v0FCdD-W4ToaPl,Thermoplastic,Ambient,Other,1980.0,0.0542,PCE_end
+ezgE6yvRgFDMs6v0FCdD-W4ToaPl,Thermoplastic,Ambient,Other,0.0,1.0,Initial
+f3KC8xv1ULYT4eRWfdcd3_-GjJ1Z,UV-curable epoxy,Dry air,PVB_NextGen,1780.0,0.8,T80
+f3KC8xv1ULYT4eRWfdcd3_-GjJ1Z,UV-curable epoxy,Dry air,PVB_NextGen,1000.0,0.0565,PCE_1000h
+f3KC8xv1ULYT4eRWfdcd3_-GjJ1Z,UV-curable epoxy,Dry air,PVB_NextGen,10000.0,0.0476,PCE_end
+f3KC8xv1ULYT4eRWfdcd3_-GjJ1Z,UV-curable epoxy,Dry air,PVB_NextGen,0.0,1.0,Initial
+fzPexZDcGXMlk7ZA2bLaKDHs0d5R,Kapton tape | UV-curable Glue,Air,EVA,250.0,0.0659,PCE_end
+fzPexZDcGXMlk7ZA2bLaKDHs0d5R,Kapton tape | UV-curable Glue,Air,EVA,0.0,1.0,Initial
+gcbmo_aCyqXDLj0GNgIdQhuBjCgE,Epoxy adhesive,Air,EVA,1000.0,0.0574,PCE_1000h
+gcbmo_aCyqXDLj0GNgIdQhuBjCgE,Epoxy adhesive,Air,EVA,1000.0,0.0574,PCE_end
+gcbmo_aCyqXDLj0GNgIdQhuBjCgE,Epoxy adhesive,Air,EVA,0.0,1.0,Initial
+gfkdbG3czWXWl1lj2nmqwgXVBt7B,UV-curable epoxy,Air,EVA,1000.0,0.0799,PCE_1000h
+gfkdbG3czWXWl1lj2nmqwgXVBt7B,UV-curable epoxy,Air,EVA,1000.0,0.0799,PCE_end
+gfkdbG3czWXWl1lj2nmqwgXVBt7B,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+gnwPdHcPKXJpT4JaInCOiQsKExpR,UV-glue,Air,EVA,1.0,0.8,T80
+gnwPdHcPKXJpT4JaInCOiQsKExpR,UV-glue,Air,EVA,0.0,1.0,Initial
+gyr5T6x_BoNA4Mx_gJtNm5mMR-pY,Epoxy,Air,EVA,120.0,0.0333,PCE_end
+gyr5T6x_BoNA4Mx_gJtNm5mMR-pY,Epoxy,Air,EVA,0.0,1.0,Initial
+hEEEIZRgCVgudREWapDGoBijPivF,Epoxy,Air,PVB_NextGen,16.0,0.8,T80
+hEEEIZRgCVgudREWapDGoBijPivF,Epoxy,Air,PVB_NextGen,16.0,0.0426,PCE_end
+hEEEIZRgCVgudREWapDGoBijPivF,Epoxy,Air,PVB_NextGen,0.0,1.0,Initial
+hNx4vssCynnWhnQh1qEXXGpwDhvk,NOA 89,Air,PVB_NextGen,160.0,0.0641,PCE_end
+hNx4vssCynnWhnQh1qEXXGpwDhvk,NOA 89,Air,PVB_NextGen,0.0,1.0,Initial
+hZs_gLtxhuJxPv_L25728d1_VGtw,Surlyn,Air,PVB_NextGen,1000.0,0.05,PCE_1000h
+hZs_gLtxhuJxPv_L25728d1_VGtw,Surlyn,Air,PVB_NextGen,1440.0,0.05,PCE_end
+hZs_gLtxhuJxPv_L25728d1_VGtw,Surlyn,Air,PVB_NextGen,0.0,1.0,Initial
+huDK9l_vygQLddqtBrG5bWw80idD,467 MP 3M Adhesive Transfer Tape,Air,EVA,420.0,0.8,T80
+huDK9l_vygQLddqtBrG5bWw80idD,467 MP 3M Adhesive Transfer Tape,Air,EVA,500.0,0.035,PCE_end
+huDK9l_vygQLddqtBrG5bWw80idD,467 MP 3M Adhesive Transfer Tape,Air,EVA,0.0,1.0,Initial
+jg4UdSRIcTlDa1d1DbBduibObki6,Butyl rubber,Air,Other,1000.0,0.0309,PCE_1000h
+jg4UdSRIcTlDa1d1DbBduibObki6,Butyl rubber,Air,Other,1000.0,0.0309,PCE_end
+jg4UdSRIcTlDa1d1DbBduibObki6,Butyl rubber,Air,Other,0.0,1.0,Initial
+ji5HKLLvkVdMviaVeISBaM1bPYeq,Epoxy,N2,Other,17.0,0.8,T80
+ji5HKLLvkVdMviaVeISBaM1bPYeq,Epoxy,N2,Other,225.0,0.0486,PCE_end
+ji5HKLLvkVdMviaVeISBaM1bPYeq,Epoxy,N2,Other,0.0,1.0,Initial
+k-7A4Wf_g3DiUhS018YnnPXsiB-x,UV-curable epoxy,Air,EVA,240.0,0.022,PCE_end
+k-7A4Wf_g3DiUhS018YnnPXsiB-x,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+lOfqL7B0PQolED604lwrKGJkMgSh,Light-curated glue,Ambient,PVB_NextGen,1600.0,0.8,T80
+lOfqL7B0PQolED604lwrKGJkMgSh,Light-curated glue,Ambient,PVB_NextGen,1000.0,0.98,PCE_1000h
+lOfqL7B0PQolED604lwrKGJkMgSh,Light-curated glue,Ambient,PVB_NextGen,1600.0,0.8,PCE_end
+lOfqL7B0PQolED604lwrKGJkMgSh,Light-curated glue,Ambient,PVB_NextGen,0.0,1.0,Initial
+mA_crTqaT_PmhGSCmhRdo3m8lji2,Butyl rubber,Air,Other,1000.0,0.0518,PCE_1000h
+mA_crTqaT_PmhGSCmhRdo3m8lji2,Butyl rubber,Air,Other,1000.0,0.0518,PCE_end
+mA_crTqaT_PmhGSCmhRdo3m8lji2,Butyl rubber,Air,Other,0.0,1.0,Initial
+mGy5ZpVKpAO3arkOdF4oNjFJ7bh0,Epoxy,Air,EVA,750.0,0.0455,PCE_end
+mGy5ZpVKpAO3arkOdF4oNjFJ7bh0,Epoxy,Air,EVA,0.0,1.0,Initial
+mqVzYe_0dcVtTmMjrN8tSKXk-UXO,UV-curable epoxy,Air,PVB_NextGen,120.0,0.2273,PCE_end
+mqVzYe_0dcVtTmMjrN8tSKXk-UXO,UV-curable epoxy,Air,PVB_NextGen,0.0,1.0,Initial
+n6DdJNospkguuN2HlFvMvsZUeQwv,467 MP 3M Adhesive Transfer Tape,Air,EVA,1500.0,0.0299,PCE_end
+n6DdJNospkguuN2HlFvMvsZUeQwv,467 MP 3M Adhesive Transfer Tape,Air,EVA,0.0,1.0,Initial
+n7du3lNg9krfx13rzxHQCzICulvu,UV-curable epoxy (ThreeBond),Air,EVA,47.0,0.8,T80
+n7du3lNg9krfx13rzxHQCzICulvu,UV-curable epoxy (ThreeBond),Air,EVA,1.0,0.95,T95
+n7du3lNg9krfx13rzxHQCzICulvu,UV-curable epoxy (ThreeBond),Air,EVA,48.0,0.0581,PCE_end
+n7du3lNg9krfx13rzxHQCzICulvu,UV-curable epoxy (ThreeBond),Air,EVA,0.0,1.0,Initial
+oJ0SCvn_89yY-f_iVLQvjd0O2JvW,UV-curable epoxy,Unknown,Other,100.0,0.0447,PCE_end
+oJ0SCvn_89yY-f_iVLQvjd0O2JvW,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+oWIxRWKaYjIacBQJJ8wu-w6kinVH,Light-curated glue,Ambient,PVB_NextGen,1200.0,0.8,T80
+oWIxRWKaYjIacBQJJ8wu-w6kinVH,Light-curated glue,Ambient,PVB_NextGen,1000.0,0.85,PCE_1000h
+oWIxRWKaYjIacBQJJ8wu-w6kinVH,Light-curated glue,Ambient,PVB_NextGen,1600.0,0.74,PCE_end
+oWIxRWKaYjIacBQJJ8wu-w6kinVH,Light-curated glue,Ambient,PVB_NextGen,0.0,1.0,Initial
+pVwj1HzHUPgYcWlY3WTz4P1KFQDD,Epoxy,Air,PVB_NextGen,500.0,0.0699,PCE_end
+pVwj1HzHUPgYcWlY3WTz4P1KFQDD,Epoxy,Air,PVB_NextGen,0.0,1.0,Initial
+pWk8OvPDYpwOuWe39v__G0G94Vj_,SLG,N2,Other,200.0,0.9398,PCE_end
+pWk8OvPDYpwOuWe39v__G0G94Vj_,SLG,N2,Other,0.0,1.0,Initial
+pqM9YL9tYW5gB0F_944di_MXnJtx,UV-curable epoxy,Unknown,Other,500.0,0.0529,PCE_end
+pqM9YL9tYW5gB0F_944di_MXnJtx,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+qAMxYAqg3ptBOQhtyRq30H_rM18P,Epoxy,Air,PVB_NextGen,144.0,0.0793,PCE_end
+qAMxYAqg3ptBOQhtyRq30H_rM18P,Epoxy,Air,PVB_NextGen,0.0,1.0,Initial
+qKB4jnxV5sxPjZBwnBe0YzqP_dII,Polyisobutylene,Air,POE,0.0,1.0,Initial
+r1hfAcBK0NcXFGi24W4DweDMcJWT,Polyisobutylene,Air,POE,0.0,1.0,Initial
+rSTpSBdE_BPmCpmWxI5GOL4NHl3d,UV-curable epoxy,Unknown,Other,100.0,0.0565,PCE_end
+rSTpSBdE_BPmCpmWxI5GOL4NHl3d,UV-curable epoxy,Unknown,Other,0.0,1.0,Initial
+rVGNncIbhboZGNlJZA3fLCV7b-CY,Epoxy adhesive,Air,EVA,1000.0,0.0348,PCE_1000h
+rVGNncIbhboZGNlJZA3fLCV7b-CY,Epoxy adhesive,Air,EVA,1000.0,0.0348,PCE_end
+rVGNncIbhboZGNlJZA3fLCV7b-CY,Epoxy adhesive,Air,EVA,0.0,1.0,Initial
+s1WUT-sE_CG6u18vnLXfBPzQsWYT,UV-curable epoxy,Air,EVA,240.0,0.056,PCE_end
+s1WUT-sE_CG6u18vnLXfBPzQsWYT,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+sDJPfBgaSgtryZ7gVB2z8F7WKi8x,NOA 63,Unknown,Other,16.0,0.0,PCE_end
+sDJPfBgaSgtryZ7gVB2z8F7WKi8x,NOA 63,Unknown,Other,0.0,1.0,Initial
+sW_JxlzSIJpe70ZuL7TpCCoQaESx,Polyolefin elastomer,Air,POE,2000.0,0.1,PCE_end
+sW_JxlzSIJpe70ZuL7TpCCoQaESx,Polyolefin elastomer,Air,POE,0.0,1.0,Initial
+sfFFYJmiHrcH2gK8FjU-LC_UJz_T,Polyolefin elastomer,N2,Other,2250.0,0.0943,PCE_end
+sfFFYJmiHrcH2gK8FjU-LC_UJz_T,Polyolefin elastomer,N2,Other,0.0,1.0,Initial
+t3Se4u1xrW_0_ZxmGHyfTSYMRNhB,Epoxy,Air,PVB_NextGen,144.0,0.0601,PCE_end
+t3Se4u1xrW_0_ZxmGHyfTSYMRNhB,Epoxy,Air,PVB_NextGen,0.0,1.0,Initial
+t3t0uWzKhEHQY9rT8BN89VPoza02,UV-curable epoxy,Air,EVA,624.0,0.8,T80
+t3t0uWzKhEHQY9rT8BN89VPoza02,UV-curable epoxy,Air,EVA,1000.0,0.0359,PCE_1000h
+t3t0uWzKhEHQY9rT8BN89VPoza02,UV-curable epoxy,Air,EVA,5300.0,0.0308,PCE_end
+t3t0uWzKhEHQY9rT8BN89VPoza02,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+tZHVlQoPxHDYa9LJQheaZ89sDtFE,Polyisobutylene,Air,POE,340.0,0.0441,PCE_end
+tZHVlQoPxHDYa9LJQheaZ89sDtFE,Polyisobutylene,Air,POE,0.0,1.0,Initial
+uZG0ZTzknU3BPWXRy5HF33T0X4jV,UV-glue,Air,EVA,2670.0,0.0391,PCE_end
+uZG0ZTzknU3BPWXRy5HF33T0X4jV,UV-glue,Air,EVA,0.0,1.0,Initial
+v3yCaPNNzxlP9dhfiekRE0oqSAi2,UV-curable epoxy,Air,EVA,54.0,0.081,PCE_end
+v3yCaPNNzxlP9dhfiekRE0oqSAi2,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+v6czuO-mwp3EqvSkz2LKi5Dp61Kb,UV-curable epoxy,Air,EVA,54.0,0.074,PCE_end
+v6czuO-mwp3EqvSkz2LKi5Dp61Kb,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+w1lSYJt-XuPUV4ru2t8GVmhtb5TX,Epoxy,Ambient,PVB_NextGen,100.0,0.055,PCE_end
+w1lSYJt-XuPUV4ru2t8GVmhtb5TX,Epoxy,Ambient,PVB_NextGen,0.0,1.0,Initial
+xIPQjQs9RIfDwcKWzjygBLA2qK0M,Epoxy,Air,EVA,100.0,0.8,T80
+xIPQjQs9RIfDwcKWzjygBLA2qK0M,Epoxy,Air,EVA,1000.0,0.0435,PCE_1000h
+xIPQjQs9RIfDwcKWzjygBLA2qK0M,Epoxy,Air,EVA,1000.0,0.0435,PCE_end
+xIPQjQs9RIfDwcKWzjygBLA2qK0M,Epoxy,Air,EVA,0.0,1.0,Initial
+xPRBSdwhq-yG51Vg_vKHD-kTrzs_,UV-curable epoxy,Air,EVA,8.5,0.8,T80
+xPRBSdwhq-yG51Vg_vKHD-kTrzs_,UV-curable epoxy,Air,EVA,700.0,0.0252,PCE_end
+xPRBSdwhq-yG51Vg_vKHD-kTrzs_,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+yIxQbsezLN3Xe87N_tjgoTiZOnl3,Light-curated glue,Ambient,PVB_NextGen,1000.0,0.98,PCE_1000h
+yIxQbsezLN3Xe87N_tjgoTiZOnl3,Light-curated glue,Ambient,PVB_NextGen,1600.0,0.82,PCE_end
+yIxQbsezLN3Xe87N_tjgoTiZOnl3,Light-curated glue,Ambient,PVB_NextGen,0.0,1.0,Initial
+yVYPowo-CkF41OxwDTRmrqQ3Sceg,UV-curable epoxy,Air,EVA,240.0,0.0547,PCE_end
+yVYPowo-CkF41OxwDTRmrqQ3Sceg,UV-curable epoxy,Air,EVA,0.0,1.0,Initial
+zOwAZ-Y_pyzXcdlBziSK66pgualQ,Epoxy,Air,EVA,388.0,0.8,T80
+zOwAZ-Y_pyzXcdlBziSK66pgualQ,Epoxy,Air,EVA,0.0,1.0,Initial
+zPZyYD4mjIuzG1OecNFj-EJqBoky,UV-glue,Air,EVA,500.0,0.0498,PCE_end
+zPZyYD4mjIuzG1OecNFj-EJqBoky,UV-glue,Air,EVA,0.0,1.0,Initial
+zwhg0dtA2Ko5SsEFEnYtwwXkqUN0,UV-glue,Air,EVA,1.0,0.8,T80
+zwhg0dtA2Ko5SsEFEnYtwwXkqUN0,UV-glue,Air,EVA,0.0,1.0,Initial
